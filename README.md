@@ -10,8 +10,8 @@ For our theoretical research, we have focused on
 * Signal to noise ratio(SNR)
 
 # **Practical Implementation**
-For our implementation of our models, we have focused on
-* Modelling various losses using Simulink
+For the implementation of our models, we have focused on
+* Modelling various noises and losses using Simulink
 * Implementing the selected techniques
 * Software Simulation using MATLAB
   - Debug the program

@@ -1,0 +1,1090 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang16393{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset161 Calibri;}{\f2\froman\fprq2\fcharset0 Times New Roman;}{\f3\froman\fprq2\fcharset161 Times New Roman Greek;}{\f4\fswiss\fprq2\fcharset0 Calibri;}{\f5\fswiss\fprq2\fcharset161 Calibri Greek;}{\f6\froman\fprq2\fcharset161 Times Greek;}{\f7\froman\fprq2\fcharset0 Times;}{\f8\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+\b\i\fs72 Various Under Water Noises\par
+\par
+\ul\fs48 Attenuation\ulnone\i0  - \b0\fs40 This is the loss in sound signal as it propogates. Practically, whatever we transmit, it will undergo some or other kind of attenuation in nature. It may attenuate because of its own limitations because nothing has 100% efficiency or limitations provided by nature. It is given by,\par
+A(l,f)  = d\super k\nosupersub  * a(f)\super d\nosupersub\b\i\fs72\par
+\ul\fs48 Shipping\ulnone\b0\i0\fs72  - \fs40  It can exhibit spatial and temporal variabilities, because of the \b speed of ship \b0 and also the if the ship movement is in \b more dense areas \b0 when compared to ship movements \b in arctic regions \b0 where the traffic is less. Shipping noise is extremely less due to less surface traffic. But in extremely busy areas like the English Channel, shipping noise starts to dominate.There is no theoretical\b  \b0 formula, because it depends on various factors like \b traffic on a particular route\b0 , it is \b time variant\b0 , with how much thrust a ship moves and causes ripples in water due to which sound signals may vary. But it is given by,\par
+\b N\sub s = 10\super (40+20(s-0.5))+(26log10(f)(60log10(f+0.03))/10)\sub Nsoff\nosupersub\b0\par
+\par
+\ul\b\i\fs48 Wave\ulnone\i0  - \b0\fs40 It is because of the movements of waves, it also depends on various factors. On a given day, if the \b waves are calm\b0 , the effect caused by them on sound signal is \b significantly less\b0 . But on a full moon day, the waves are at their full threshold, so this may start to induce noise in the sound signal. Only from few Hz to 50kHz, wave generated noise starts to dominate.It is given by,\par
+\b N\sub w \nosupersub = 10\super (50+(7.5(w)1/2))+20log10(f)-40log10(f+0.4))\nosupersub N\sub woff\b0\par
+\ul\b\fs48\par
+\nosupersub\i Thermal\ulnone  - \b0\i0\fs40 In underwater acoustics, thermal noise provies a lower limit on the detection of underwater acoustic signals. It means that weaker noise sources cannot be measured, so thermal noise is of no use. But for frequencies above 50kHz, the molecular bombarmdent of the medium with the receiver generates thermal noise. It is given by,\par
+\b N\sub th\nosupersub  = 10\super ((-15+20log10(f))/10)N\sub thoff\b0\par
+\ul\nosupersub\b\i\fs48\par
+Ambient\ulnone\i0  - \b0\fs40 It is the prevailing, unwanted background of sound at particular location in the ocean at the given time for the year. For ex, if some signal is transmitted from \b source to destination\b0 , then some part of the sound signal may be \b prevailing in the ocean\b0  and it may interfere when communication is taking place at a particular location at a given time. It doesn't include noises \b of nearby ships(shipping) \b0 or \b marine organisms(bio acoustics) \b0 . It is given by,\par
+\b N(angle) = I\sub o\nosupersub sec(angle)\b0\par
+\par
+\ul\b\i\fs48 Wind & Rain\ulnone\i0  - \b0\fs40 There is some interference caused to underwater acoustics, because of wind and rain.Wind effect starts to \b dampen sound signals \b0 due to factors like \b velocity of wind\b0 , \b direction of wind\b0  to which the sound signal is being transmitted. Similarly, \b rain\b0  causes disturbances due to \b impact of droplets \b0 falling on the sea surface, \b oscillations of the droplets \b0 upon falling, oscilltion of thr entrained air carried below the surface. It is \b independent of frequency \b0 but it depends only on the \b amount of rainfall\b0 .\par
+\par
+\ul\b\i\fs48 Seismo Acoustic\ulnone\i0  - \b0\fs40 These are the \b low frequency signals\b0  origination in Earth's Interior and the oceans.In simple terms, seismo acoustics is the \b turbulence\b0  caused in \b earth's crust \b0 due to the plates. This results in \b slight tremors\b0 , which cause seismo acoustic waves which interfere with the sound signal.The formula is given by,\par
+\b P = \i\f1\fs36\lang1032\'f1\f0\lang16393 cu = 2(pi)\f1\lang1032\'f1\f0\lang16393 cfa\par
+\b0 where \f1\lang1032\'f1\f0\lang16393  = density,c= speed of sound in water, f = frequency,\par
+a = amplitude of the displacement\i0\fs40\lang9\par
+In the frequency range below 3Hz, there are specific frequency bands -\par
+
+\pard{\pntext\f8\'B7\tab}{\*\pn\pnlvlblt\pnf8\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Microseism band(80mHz - 3Hz) - results from non linear wave-wave interactions.\sub\par
+{\pntext\f8\'B7\tab}\nosupersub Noise-notch Band(20-80mHz) - results due to currents and turbulence in the layer near sea floor.\sub\par
+{\pntext\f8\'B7\tab}\nosupersub Ultralow-frequency(ULF) band (<20mHz) - resulting from surface gravity waves.\sub\par
+
+\pard\sa200\sl276\slmult1\nosupersub\par
+\ul\b\i\fs48 Arctic Ambient\ulnone\i0  - \b0\fs40 The noise environment in the polar region. Here, theArctic ice is different from than any other ocean area. The ice is not contaminated when compared to other ocean regions. So it has more of pure water with less ions in it. Here, \b shipping noise \b0 is extremely low due to \b lack of surface traffic\b0 . But, the ice cover affects the noise. It produces ambient noise conditions, that are much quieter than other sea state zero in the open ocean. The ice may produces noises such as wind,waves and thermal effects on it.\par
+Also, the ice cover is different in different zones. Some are shore-fast ice, moving-pack ice and marginal ice zone.In shore fast ice, here the ice is hard as it is found in the freezin In moving pack ice, the ice starts to melt and keeps moving in the arctic region. In marginal ice zone, here the ice is less because most of the ice is turned into water due to varying temperatures. \par
+\par
+\ul\b\i\fs48 Bio Acoustic\ulnone\i0  - \b0\fs40 These are the acoustic noises due to \b marine animals\b0 . Marine animals transmit singals to communicate with each other. These signals interfere with the transmitted acoustic wave from the trasmitter. Here in bio acoustics, the factors affecting are \b the frequency \b0 of the sound by marine animals, how \b often they trasnmit \b0 signals, how many different \b bio acoustic signals co-relate \b0 with the each other and with the sound signal(Trasmitter). \b Whales\b0  are the most notable contributors because they transmit signal at a \b very high frequency \b0 which causes deviation in our own signal.\par
+\par
+\ul\b\i\fs48 Beam\ulnone\i0\fs40  - \b0 It is used to model the low frequency ambient-noise field in the ocean. Here, we use passive sonar systems,narrow beams because if the beam is narrow, there are less chances of it being attenuated. Because when we use a narrow beam, it is more of a \b point-point transmission\b0 . The probability measures of beam noise depend on array configuration,orientation, location and season. Here the orientation is nothing but how \b a beam is oriented\b0 , what \b angle it is moving at\b0 , is it a narrow or a wide beam. Location and season are slight tricky to notify. They vary from ocean to ocean. Even if we conside an specific ocean, it may have various seasons and each season causes specific impact on the sound signal. It is given by,\par
+
+\pard\sa200\sl240\slmult1\b Y = summation(i = 1 to i=m)summation(j = 1 to j=n)\par
+      summation(k = 1 to k=A\sub ij\nosupersub ) S\sub ijk \nosupersub Z\sub ijk \nosupersub B\sub ijk\par
+
+\pard\widctlpar\qj\nosupersub\b0\f2\lang1033 where,\par
+ \i m \i0 is the number of routes in the ocean, \i n\i0 the number different ships,\par
+\i A\sub ij, \nosupersub\i0 the number of ships of type \i j \i0 on route \i i\i0 (a random variable),\par
+\i S\sub ijk, \nosupersub\i0 the source intensity of the \i k\i0 th ship of type \i j \i0 on route \i i\i0 (a random variable that is statistically independent of the source intensity of any other ship), \par
+\i Z\sub ijk \nosupersub\i0 the intensity transmission ratio from ship \i ijk\i0 to the receiving point and \i B\sub ijk\nosupersub\i0 the gain for a plane wave arriving at the array from ship \i ijk\i0 .\par
+\fs28\par
+
+\pard\sa200\sl240\slmult1\sub\b\f0\fs40\lang9\par
+\par
+\par
+\ul\nosupersub\i\fs48 Volume Reverberation\ulnone\i0  - \b0\fs40 The main source of volume reverberation in the sea has been biological. Different marine animals affect different bands of the active sonar spectrum. \lang1033 At frequencies more than that 30 kHz, the scatterers are zooplankton. At frequencies between 2 and 10 kHz, the main scatterers are the various types of fish that possess a swim bladder. The bladder amounts to an internal air bubble that becomes resonant at a frequency depending on the size and depth of the fish. It is given by,\par
+\b S\sub L\nosupersub  = 10log\sub 10\nosupersub  summation(i=1 to i=n)\{sigma\sub i\nosupersub (f) * 10\super -4\nosupersub\}\par
+\par
+\par
+\ul\i\fs48 Sea Surface Reverberation\ulnone\i0  - \b0\fs40 In this reverberation, the roughness of sea surface and the presence of trapped air bubbles make the sea surface an effective scatterer of sound. It can take occur due to out-of-plane as well as Vertical plane.Here, the scattering of the sea surface varies with grazing angle, freuqency and roughness of the surface. If the roughness is more, then the scattering effect is high and vice versa. Sea surface roughness is because of the wind speed or the height of the wave. Here, there is a large variation for low frequencies and low grazing angles, and less variation for high frequency and high grazing angles. It is given by,\par
+S\sub s \nosupersub = 3.3(beta)log\sub 10\nosupersub [(angle)/30] - 42.2log\sub 10\nosupersub (beta) + 2.6\par
+where beta = 158[vf\super 1/3\nosupersub ]\super -0.58\nosupersub\par
+\par
+\ul\b\i\fs48 Under Ice Reverberation\ulnone\i0  - \b0\fs40 In this reverberation, large chunks of ice causes reverberation takes place due to rough under ice surface. In arctic region, the ice is the main cause of reverberation. Because of the difference in under-ice surface, scattering strength is different at different grazing angles. Because different under ice properties scatter at different angles. We can use directional sources/receivers for optimum ray paths can minimize reverberation under the ice. There is increase of scattering strength with increasing frequency and grazing angle.It is given by,\par
+R\sub ls\nosupersub  = L\sub p \nosupersub - 40log(r)+10log(S\sub s\nosupersub C(tow)/2r(angle))\par
+\par
+\ul\b\i\fs48 Sea floor Reverberation\ulnone\i0  - \b0\fs40 The sea surface is an effective reflector and scatterer of sound. It can take place due to out of plane or vertical plane.Similarly, if ithe sea floor is rough, the scattering is more and if the sea floor is smooth, then less scattering takes place. Also, the sea floor has sediment composition(sand,clay,silt) which result in scattering at different angles. For ex, as mud is smooth, therefore it has low impedance when compared to water. Similarly, silt tends to be rough, with high impedance. It follows lambertz law which is given by,\par
+S\sub B\nosupersub  = 10log10\i\f3\fs36\lang1032\'ec\f0\lang16393  + 10log10sin\super 2\nosupersub (angle)\par
+\par
+\i0\fs40\par
+\ul\b\i\fs48\lang9 Turbulence\ulnone\i0  -\b0\fs40  It is caused by various factors. As ships propogate faster, they cause turbulence in water. This may lead to ripples which inturn affect the propogation of sound. Turbulence is also caused by unstability. It is caused by tidal energy, when waves gush in and out causing more force on water which in turn affects our sound wave. It is given by,\par
+N\sub th \nosupersub = 10\super (50+(7.5(w)1/2))+20log10(f)40log10(f+0.4))\nosupersub N\sub woff\par
+\par
+\nosupersub\fs28\lang16393\par
+\ul\b\i\fs48\lang9 Self-Noise\ulnone\i0  - \b0\fs40 This noise is generated due to the transmitters/receivers that emit and receive acoustic waves.  This noise is the radiated noise from the transceivers, noise from their structural components, flow of water around the transceivers\fs28\lang16393 .\fs40  When the transmitters transmit acoustic waves, they cause turbulence in the water. Similarly, on the receiver side, the receivers while receiving the acoustic waves, there is some turbulence in the water around it. There are 2 kinds of self noise - \b Flow noise \b0 & \b Strumming noise\b0 .\par
+\par
+\ul\b\i\fs48\lang9 Flow noise\ulnone\i0  - \b0\fs40 The movement of ocean water also causes some form of hindrance to underwater communication. Here, the water is not stagnant, the water keeps moving because of the waves formation, this causes the flow noise and is given by,\par
+R\sub e\nosupersub  = p V\sub s\nosupersub  L/(\f3\fs28\lang1032\'ec\f0\lang16393 ) \par
+where V\sub s\nosupersub  = mean fluid velocity\par
+\par
+\ul\b\i\fs48 Strumming Noise\ulnone\i0  -\fs40  \b0 This noise is low frequency humming/vibration sound that is prevailing in water. This is the low frequency sound that is difficult to measure as it is vibration takes place when sound signal travels. It is given by,\par
+F\sub strum\nosupersub  = S(v/d), \par
+where v = flow velocity, d = diameter\par
+\par
+\ul\b\i\fs48 Blade Rate\ulnone\i0  - \b0\fs40 It is triggered by the flow irregularities because of the changes in the moving action of the blades. It causes a series of frequencies radiated by the blade rate noise as follows,\par
+F\sub Blade\nosupersub  = mnf\sub r\par
+\par
+\ul\nosupersub\b\i\fs48 Propeller Noise\ulnone\i0  - \b0\fs40 Propeller noise is generated and radiated from the propellers which is in direct contact with the water. Propellers create turbulence when they propagate. It can also be sub classified, based on their source, Blade rate, resonance & cavitation noises. It is given by,\par
+F\sub propeller\nosupersub  =  {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw1778\pich804\picwgoal1008\pichgoal456 
+89504e470d0a1a0a0000000d4948445200000054000000260802000000d5e32b5c000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f78000003c5494441546843e59abd52e33010c7957b968482c913384f003454b4d79912
+3774947434b83c3a5aaa6b923c017e028682f85d72bb2bc992562b7f30b98c32fc1bcefab0f7b7
+fb9764676eb6dfefd54fd52ff3f784d4d6ab99d1ed56376d6f4dc36c55b7ba6994a0f227a7dd73
+0191971b7389129a86752295876a7b359d5fdd20aaafdd67533ceffe5c984b5f600beb102e9384
+acb529594da9ce5e130c007473112bd59d3f3c82723b87f0d208267948eef018b55035a8a56d1e
+818e92aa9f393c424a641dfc48749090c6ace1136507999ef1e8a8a8f839eff6edfaad296eaee6
+e632d6faa95a6ebc1dbe675f475d5c974df5e40f3049c850e9baeb3e90abba69d04a9a81ada27c
+e109a71783652672752c76cf6ce1fbd905c18421769eb383ac79fbb6ddb7e0a60a5ed95471be30
+57c3c20d627996de1fb416e7856aded6e65d91c1db2f8400c37d3624f0e677ef94d209b10ea9fd
+fa506a18c609df6ff1f96d7ddbf36d333f5b2ad57ceecca57180f1596c1ccf28342261c5110b6e
+92f0b1535d4f3c03510494069eda8467b1f66448d83125d42105311e545e31f59a6febdf9592be
+897021f96e869352a98fafc85668d2d0f4de52113eb15defaaded6ab43ee1563647d8ff0dba70a
+5e26ced6dd6f0461bc7ce5b92563c5de4670ffbbfc30d9dd3dab6ae1d351ef8bb1c9eee6edb252
+07dc2b2609e0696f69aa47f54af1a0e51a132f6eb92384c3ba14a18de0dbfaf54e5fd316e39985
+321dba2cb5af4dd9efbe258027c272f36ea285bdfbc19a1b4f866105a6a795523ed89b31b5f5e3
+8bdf8bcf2eafa59f2004195b4e94992c09e06542676ebec6f989169a1e71fc11dbbf2f2ad94b9d
+49d3f3076b634e95992c09e0b931b52826fabdc85be3e2e91b9a9e8d08d9496e2cdae0ff9bbb47
+981c3ac1ba832538cffc33473e7fb0151be1aff9d3cd8e27b88306879765f2d3c53f910e2affc6
+d64b446c159ed884a0258663a6767ddef8f8ecef3a6138fe3b0548378d664fd2a6146e4ecfb7ed
+df5c48df113e37c041c0141f05297676e943f97841fd48c2fc20a9c78387c7069548e39130cab8
+7214bb6dd6b4dd2df0327d3fada0f0c7fd25c77d4fc13bde02cffbfbe42947df5fd1eb14c8bd42
+5cdc234ab455f7894e1bb7ffea1c1c45ba5256a38ad43f28ace388cab37b1e137ea230d2d8f89e
+180ac2170534694953597e32861fa067e82040b3c3a933f201f746cef07df4831e27fc70b2971c
+adace1538c83e4a0085ec864e6f042c8ac6553ea3460b39f1082f71aa2b2837287e7549c11981c
+bca30dafe2695af9c383182153086ce59759aa3aea24e0094c0c7f8cbad445fac1ff2149a97fde
+3d73bf10c873740000000049454e44ae426082
+}\ul\b\i\fs48\par
+\par
+Resonance Noise\ulnone\i0  - \b0\fs40  This is caused due to the mechanical vibrations of the structural components, matching with the natural frequency. Due to this, it results in high amplitude vibrations. The components consists of plates, struts, propeller blades and the complete structure, when vibrated at natural frequencies generate resonance noise. These resonant signals have much greater bandwidths than compared to normal working machinery. \lang1033 For example, the noise generated by the Hull resonance frequencies are of significantly lower amplitude than compared to the resonance frequencies of propeller blade, because of the shear larger size. It is given by,\par
+F\sub resonance\nosupersub  = 10log(V\sub t\nosupersub /25)\par
+\par
+\ul\b\i\fs48 Machinery Noise\ulnone\i0  - \b0\fs40 All moving components/parts of the ship, contribute to this noise. These noises increases with both the speed of vessel and frequency of acoustic waves. At some point within the well defined speeds, the noise components of the moving parts of the ship might complement the fundamental frequencies corresponding to the structural vibrations to cause a signficant increase in the overall radiated noise. The overall radiated noise is given by taking into considerations such as propeller noise, resonance noise and machinery noise. \par
+N\sub r \nosupersub = 154 + 60log(V\sub t\nosupersub /25) + 10log(n/4) - 20log(f)\par
+where N\sub r \nosupersub = Total Radiated noise\par
+\par
+\ul\b\i\fs48 Facet Scattering\ulnone\i0  - \b0\fs40 In this scattering, as the sound wave propogates, from the normal to the average surface, the number of facets with correct orientation decreases monotonically and therefore the strength of back-scattering rapidly decreases. Here we are assuming that the slope will follow a normal distribution, then the following equation can be given,\par
+\super Prob(tan(\nosupersub{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw381\pich826\picwgoal216\pichgoal468 
+89504e470d0a1a0a0000000d4948445200000012000000160802000000423d5b16000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000011349444154384fad94311682300c86836751071f27c013f85c9c3c42197571
+73747381d52338b9486fe009780ed2bbd4a4894029f2d4e7b7d084fc699252226b2d7ccf489e5f
+f25799c9e751aac5e8057b630a251e872ac4dd0fcbaa2c69229d01906415db7d90cc1391a50adf
+1582323f046b756baaf9bd0e4752dd6f90cc26ae25d09732db2d70319925503e0c7b036492f174
+4c0f931fcaf5d22d871119e735d773bcdf7ca0221995e3d0c76dbca202092a5d6a60741a39e639
+ed80fdd14c70dc856a66de9da48488f53a373eeadaefcc46d4fa105e212c93f435edc404bdf54e
+8365e8ee46b60954f56e8360959dacfd37c0475f4efe503fba6fe65182aa0f46905ddf1336860c
+cb78be81c8da9f7e41004fd5d6068c1a1a200a0000000049454e44ae426082
+}\super ) \nosupersub = \sub  \nosupersub 1/2(pi)e\super -tan({\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw381\pich910\picwgoal216\pichgoal516 
+89504e470d0a1a0a0000000d4948445200000012000000160802000000423d5b16000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000011349444154384fad94311682300c86836751071f27c013f85c9c3c42197571
+73747381d52338b9486fe009780ed2bbd4a4894029f2d4e7b7d084fc699252226b2d7ccf489e5f
+f25799c9e751aac5e8057b630a251e872ac4dd0fcbaa2c69229d01906415db7d90cc1391a50adf
+1582323f046b756baaf9bd0e4752dd6f90cc26ae25d09732db2d70319925503e0c7b036492f174
+4c0f931fcaf5d22d871119e735d773bcdf7ca0221995e3d0c76dbca202092a5d6a60741a39e639
+ed80fdd14c70dc856a66de9da48488f53a373eeadaefcc46d4fa105e212c93f435edc404bdf54e
+8365e8ee46b60954f56e8360959dacfd37c0475f4efe503fba6fe65182aa0f46905ddf1336860c
+cb78be81c8da9f7e41004fd5d6068c1a1a200a0000000049454e44ae426082
+})/2(sigma)sq\par
+\par
+\ul\nosupersub\b\i\fs48 Scattering due to air bubbles(near surface)\ulnone\i0  - \b0\fs40 Air bubbles are caused by waves, which trap the air in the vicinity of the ocean surface. For frequencies greater than 10 KHz, scattering due to these air bubbles become dominant. These air bubbles become dominant and cause obstruction to the flow of acoustic waves. The obstruction caused by them is different for different depths. Near the surface, the tendency of obstruction is more, when compared to deeper depths. It is given by,\par
+\par
+(beta)\sub v\nosupersub  = 10\super -5.2577+0.4701U\nosupersub (f/25)\super 0.85\nosupersub  for  U < 11m/s\par
+             =  (beta)\sub v\nosupersub (11)                     for  U = 11m/s\par
+             =  (beta)\sub v\nosupersub (11)(U/11)\super 3.5\nosupersub       for  U > 11m/s\sub\fs72\lang16393\par
+\nosupersub\fs40\par
+\fs28\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\b\i\fs72\lang9 Various Under Water Losses\par
+\par
+
+\pard\widctlpar\sa200\sl276\slmult1\ul\i0\f4\fs40\lang1033 TRANSMISSION LOSS :-\par
+\ulnone\b0\fs20 The transmission loss is the loss at the point we are calculating with respect to the reference point(origin of signal).\par
+The spreading and absorption effects all come under transmission loss only.\par
+General transmission loss formula is \par
+N\fs12 T \fs20  = -10log(I(\fs16 r,d\fs20 )/I\fs14 0\fs20 ) \par
+Here I(r,d) is the signal strength at the point of interest\par
+Whereas I0 is the strength at the original point.\par
+\par
+\ul\b\fs40 SPREADING LOSS :-\par
+\ulnone\b0\fs20 The path loss which occurs due to the area covered by the signal energy and the wave front moves outward from the source. It is given by the formula\par
+PL(\fs18 spreading)\fs20  = K x 10log(r)\par
+Where K is the spreading factor and r is the range in meters.\par
+When the area is unbounded the factor K =2\par
+From original transmission formula \par
+N\fs12 T \fs20  = -10log(I(\fs16 r,d\fs20 )/I\fs14 0\fs20 ) \par
+The area is spherical so it will be {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw1439\pich487\picwgoal816\pichgoal276 
+89504e470d0a1a0a0000000d49484452000000440000001708020000003d6b7ebc000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f78000001a2494441545847ed97317283301045e59c254ec1e404f8044e9a546ed341e9
+34e95ce600a2b43bb7aedc046ee013b832ba0bd1ae5642082943264a067b780dab05ad58fd6f31
+9e354dc36e853bba5e23a258cc148b4260462a739d9419cb4a1da9f07a95596e9bed12a37992e2
+d56bb32a97cae5158da282ce885c5a7c1e187fc7be50289b9a639f246154fea274ebb6becd44f1
+7a587169c2f345fda6e2614ac7437ae8f8a2dde6da4caef7f6b8593fd03026d8cade2d8d8ef6a1
+cf27f5008ef4e1a55d2ac71f498d9d8822c7e74921444b06764879ad925dc8292102b3609aba65
+4e1e154308252965df3537f0c255015307b31698b59a9195ec07dba2bfc67905a7b2de42b7170d
+6483bbd4c1d8acca9f76d9667d4fc3889077bb95abdc18e9b84b933944e27266145a6096ef07bd
+99eac9110df0ef85e7411bcf24dc580f24011454a14fb550d60f36d39b002f3048d89fd25b0912
+b452d864037b019b810d4e59690eb8ff447ef04ee9ead9b6903ca4acafaa34a1c77a21b4095a21
+5a5f0cdd91a1b8955127b38a1a751dd153f25ba6bf0063656a66ac4ccd8c95a99971c2d817051c
+d312396760e60000000049454e44ae426082
+}\par
+I(r,d){\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw826\pich487\picwgoal468\pichgoal276 
+89504e470d0a1a0a0000000d494844520000002700000017080200000007bbc1cf000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000013e49444154484bed95bd91c2301085e5ab0512e62a3015302444a497d92124
+6414218790911291803bb80a8840bd0869f7c916b2cc1d333601c39768b5fa79da276412adb578
+395f687b4515e38419178a32a6d69e3965223bb988c317d43ad9e8cd84a2e128a5f691c3e44b5e
+a2d701eab817724507a0d2235c259d0bde74406d74abc3aaf8d9cfa5b9868e28f3e43073461ba0
+7e87a93395d7faf219db8d62e7629442d854adc5761c66368aa856937c55f8633744ca1b45961a
+c9ab6b259bf5a06c433598ee5401c4398a0c62d7bf08eed5dce7f27bbd18a0cb94b97bdce5619b
+8e86365297b340e8a094dc058be3409da1d346b8771251506acc9a365a5f4e641b9b80812dfefe
+53f4996f9379e4bfe97cea1b683e24ee3362cc0f2d7f00d41bd46673015479550cf7bc9fce33fe
+6afdc6ff740d3eaa7df351ed17216ebc160e329a6889060000000049454e44ae426082
+}=I\fs14 0{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw931\pich487\picwgoal528\pichgoal276 
+89504e470d0a1a0a0000000d494844520000002c000000170802000000ff5b3a38000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000016c49444154484bed953d5a8340108617cf9234793c0139414c63456b07a536
+761e622943679b8ac670839cc0ca70179c5f607f940a2ce46d76767776f866669f25e9bacefc35
+77322e495bee13665fb6b4029558964b6ef28b5a6c2e5f89c3a93b1dc8daee521afd7650a58a46
+66f3d27e9c8d7d253d5418e166499a546b5e86ae38ed68cba77366a14ff3d31449fda85d01440c
+5621b5b7e1b230388d82beb24ba614f187b3e4a2c897d8ccd11211fdc65804d868627c591aedca
+2a0d964f3bd1419333d1a03419201f12319c76fc05d1c25664d34b14702400e8e4fb8c813b0177
+e1e5feed79c3d284a6d087a4a9ab74b745abfdfa34622ab464dfddc370edaf26f723fe06e71241
+52c6acd88c542956b830f1a942e89d5082a8b820013096f7c1c852186352c3d48b89954db3e3b8
+b0f09ee96b069df2fb036c8e596aaa9a7dc0fba10a1ae6236208d4cc702294539f14cf46490565
+eb115722eae0f26f7fe501ab086515a1ac221863be01adf758acfe088cd70000000049454e44ae
+426082
+}\fs20\par
+So (I(\fs16 r,d\fs20 )/I\fs14 0\fs20 ) =  {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw931\pich487\picwgoal528\pichgoal276 
+89504e470d0a1a0a0000000d494844520000002c000000170802000000ff5b3a38000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000016c49444154484bed953d5a8340108617cf9234793c0139414c63456b07a536
+761e622943679b8ac670839cc0ca70179c5f607f940a2ce46d76767776f866669f25e9bacefc35
+77322e495bee13665fb6b4029558964b6ef28b5a6c2e5f89c3a93b1dc8daee521afd7650a58a46
+66f3d27e9c8d7d253d5418e166499a546b5e86ae38ed68cba77366a14ff3d31449fda85d01440c
+5621b5b7e1b230388d82beb24ba614f187b3e4a2c897d8ccd11211fdc65804d868627c591aedca
+2a0d964f3bd1419333d1a03419201f12319c76fc05d1c25664d34b14702400e8e4fb8c813b0177
+e1e5feed79c3d284a6d087a4a9ab74b745abfdfa34622ab464dfddc370edaf26f723fe06e71241
+52c6acd88c542956b830f1a942e89d5082a8b820013096f7c1c852186352c3d48b89954db3e3b8
+b0f09ee96b069df2fb036c8e596aaa9a7dc0fba10a1ae6236208d4cc702294539f14cf46490565
+eb115722eae0f26f7fe501ab086515a1ac221863be01adf758acfe088cd70000000049454e44ae
+426082
+}/{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw762\pich487\picwgoal432\pichgoal276 
+89504e470d0a1a0a0000000d4948445200000024000000170802000000ec8c7acc000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000013849444154484bed953152c330104565ce020dc3099c1330345469e9ec9234
+e938845c42479b2a0df10d380115d15dc4aef6afa50825c0a05030798d572b4b7ff73b3b69bcf7
+e6af38c3b33a6e9835c26c70c819eaec086c3ad36d34d2d01f492cb2b5ed2496d9189aef47ac2a
+e05e56c62eafb1124d81ab20b490df13dd0c249db9e16e35b7647125c6be59dffa47ed8a812877
+d5daedcef724785984dfc56e0861ca7416d749d82182d8b4978ac104be07a96417d9f0b0723a0a
+703641658358f6968a01684a54d88c977d057d33fa568bab87fb73a9028cbdcee2b87e6a2f2f38
+72ef6f06a11252f6393bbc17a9adc0ae5d88b2c64a461c201bea4fa7390197f698f87dad7ca873
+68265fdbf94dea12cdbd4e3d399cfb7a188806a2a3526ee8732a5d56c9afe187267aff3ffe624a
+9cc4aa7012ab80311f3bab2b8735aa96230000000049454e44ae426082
+}\par
+N\fs12 T \fs20  = -10log(I(\fs16 r,d\fs20 )/I\fs14 0\fs20 ) = -10log({\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw931\pich487\picwgoal528\pichgoal276 
+89504e470d0a1a0a0000000d494844520000002c000000170802000000ff5b3a38000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000016c49444154484bed953d5a8340108617cf9234793c0139414c63456b07a536
+761e622943679b8ac670839cc0ca70179c5f607f940a2ce46d76767776f866669f25e9bacefc35
+77322e495bee13665fb6b4029558964b6ef28b5a6c2e5f89c3a93b1dc8daee521afd7650a58a46
+66f3d27e9c8d7d253d5418e166499a546b5e86ae38ed68cba77366a14ff3d31449fda85d01440c
+5621b5b7e1b230388d82beb24ba614f187b3e4a2c897d8ccd11211fdc65804d868627c591aedca
+2a0d964f3bd1419333d1a03419201f12319c76fc05d1c25664d34b14702400e8e4fb8c813b0177
+e1e5feed79c3d284a6d087a4a9ab74b745abfdfa34622ab464dfddc370edaf26f723fe06e71241
+52c6acd88c542956b830f1a942e89d5082a8b820013096f7c1c852186352c3d48b89954db3e3b8
+b0f09ee96b069df2fb036c8e596aaa9a7dc0fba10a1ae6236208d4cc702294539f14cf46490565
+eb115722eae0f26f7fe501ab086515a1ac221863be01adf758acfe088cd70000000049454e44ae
+426082
+}/{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw910\pich487\picwgoal516\pichgoal276 
+89504e470d0a1a0a0000000d494844520000002b0000001708020000001d872141000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000016e49444154484bed963d72c2301085056709140c27302760d2d3a6b34b7280
+1c422e49474b9526f806390115e82e8ef647d65ab30185013393c9d778bdf66a9fde5a0ca3b66d
+cd4319f3f5e6b87a312216b5e39c8ef7e00eec4b53ee4314429d3b79b0dcb49b254693598157a0
+a93447580973b2fefdb3927f895fb0b027be01a0432fd35380fd6fa9200e43026d625a2840b9f6
+d2d8f2d1db23f2e3e814b05dc98703b72a68243dc590edeb6a79390a4be93a22dab082ae402af0
+3184b038a7c453cee2c55275ec0a5941d022882ba182a4947b04580845ca43b5c325a08ecafc69
+74f5cbebfc6dfd447a99a60ac7a6f9782f661388dcf160380c60ca6e93e20cc421a55d28f066d1
+660c157f34cbf2804af2a0771a9525e39b3fcde02a01fd299cc37deebe8ad5b334d9ffe0570d85
+7e40e9583281e999f914d72549441c086d0c1de9364977c19190b8de02ae4ca63010727a8f5000
+de45eb0657203e6d625005f10008fef0bfb46cfe1518f30d36cf281b6bbb12e10000000049454e
+44ae426082
+}\par
+= -20log(r\fs14 0/\fs20 r)\par
+And assuming r\fs12 0\fs20  = 1 we have K= 2 \par
+From the general formula\par
+And when is bounded it differs for, cylindrical Boundary it is k=1.\par
+This factor has only short range applications.  The spreading loss has a logarithmic relationship with r we can see from the formula.\par
+\ul\b\fs40 ABSORPTION LOSS :-\par
+\ulnone\b0\fs20 The absorption loss is the energy lost in the form of heat due to viscous friction and ionic relaxation.\par
+It is given by the formula\par
+AL(\fs18 spreading)\f5\fs20\lang1032 = 10log(\'e1) x r\f4\lang1033\par
+\f5\lang1032 (\'e1) is absorption coefficient and depends on frequency\f4\lang1033\par
+\f5\lang1032 As there is a change in frequency there will be a change in \'e1 \f4\lang1033\par
+Based on frequencies the loss is divided into 3 effects \endash  Viscosity, ionic relaxation due to boric acid and magnesium and relaxation time.\par
+Viscosity effect is for high frequencies above 100Khz\par
+Ionic relaxation effect due to magnesium is for the range of frequencies between 10 and 100khz whereas boric acid effect the lower frequencies.\par
+Basically the coefficient should increase as the frequency increases and decrease as the depth decreases.\par
+\ul\b\fs40 PATH LOSS :-\par
+\ulnone\b0\fs20 The combination of both spreading and absorption losses gives this loss.\par
+\f5\lang1032 PL(path) = Kx10log(r) + \'e1 \f4\lang1033\par
+\ul\b\fs40 MULTIPATH LOSS :-\par
+\ulnone\b0\fs20 These losses are due to two forms \endash  1) Sound reflection over the surface, bottom and by any objects underwater\par
+                                                                 2) Sound refraction\par
+The speed of sound is usually constant at the surface of the water but as the depth increases and the factors like temperature, salinity and pressure the sound wave ray slightly changes the path.\par
+The sound ray bends towards the region with lower propagation speed. \par
+When there are multiple sound waves coming out from the source, the waves get reflected or refracted and intersect each other which fades the signal.\par
+This phenomenon is called multipath fading or multipath loss.\par
+\ul\b\fs40\par
+SURFACE LOSS :-\par
+\ulnone\b0\fs20 This loss is due to the reflection of sound waves at the air-water interface nothing but the surface of the water.\par
+There are many models for this surface loss.\par
+\fs32 RAYLEIGH MODEL- \par
+\fs20 This model is considered when the wavelength of the sound wave is equal to the roughness of the surface of water.\par
+\f0\fs22\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw2625\pich614\picwgoal1488\pichgoal348 
+89504e470d0a1a0a0000000d494844520000007c0000001d0802000000e7d49f16000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f78000002c9494441546843ed9a3d56e33010c7cd9ec550f0720273828426156d3aa74c
+9aed28e968701977b454342427c027c8a320be8b57238d34234b6183632203fa35b164cb96fe9a
+2ffbe5ac699a24725afee06fe48444d1031045ff5236f333c37c839d51f42f275f8bb4d9ec1eb2
+f2aea8b10f7a2247222445390925b6669db38e68e92deae20ac3c195314c069d06f425e9e255a8
+4ab242838031cfd36635c6760c2f3675315b8e301e24cb994f766ec2af8b143b6dc67f8de98ba8
+3e4b1e85e275318fe1c50737570819d9c34e350ca2d78e1b1acbd20d96c99bbb694be76996dc86
+3993d7d97e20d9e5b93a482f4649f5b6530d4e394149583db28ff14ac92c317e01a283b493adde
+06d8e1eae9454a8cb10af6689f277d336ce3d2fc5f3d8d5044c9043a9593c3077284e8f5cb5395
+e4b75ad47471cb7de2fcd24dccdf18cbf40c94e3c8b8ebf72d99bd87f4fa264bb6ef1ffabf9d76
+4db8d0e1858f1613fb0176dd25348ea779523e4beb0553cc6eaea50ce01ecaa6c54d4de8055b1d
+5d709d9c2d48178f2c33acf36a792f6f231a5865fa13843ce9269481c3672d8ffd8bf340a98f86
+509244a914a40a75b79f036748743cc4eac53cca91974fff2868357efa7886069e45f7eb6d091d
+e0bb643684978c5ee543ced8e5b09d9357319b6bb74f88b174a5be9a8453a7ab93a4f27ed1d595
+9c30eb72f16e4d60d1b9ec9e97235b665774e8c115c0eaf462dc0b6d0e33d25e8047f578bbee28
+9dcd6450825c542f2237bbe9dd4ecb16bbb7ca574ac912ea03fcc51ad163c10465ae7ed5088aae
+ea716d28c14a958c15fbccb0b95f8ab27daa2b5721311e29eae2aec4431b18a76bacc0c8570d6b
+4d3ebb0a0848dff27c8a7eda3dda68dfe503c3c4ccbd58531fd8dc3c31fd1380e86a4152fe81ad
+6db0e837d263911f33bb7e8bf86d1c2f3abefbaa4f3651f683408bef80899a3ac263c7208ab541
+13ff6c1480be627ae41344d10310453f3949f20f4ad0de9aabad9e210000000049454e44ae4260
+82
+}\f4\lang1033\par
+\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw9398\pich529\picwgoal5328\pichgoal300 
+89504e470d0a1a0a0000000d49484452000001bc000000190802000000c5740c61000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000050349444154785eed9c3b56eb301086cd5d4b429193158415c43454b4744949
+1a3a4a3a1a52e28e3615cd252bb859410e05c95e7c6746a3975f719ebcfeafc1922dd98946bf66
+460e67799e27000000daf147ff020000680144130000b600a20900005b00d104a7603e3e13c673
+ad00bf8ef5f4426ce062bad69a2f8f7d6422786a88263805c3e7fc6d9424a3aba15680236197a7
+222794aae811fc7d3bb7ffc4084e8b3ccc4e6b35296677923cad72e26db49874ed47816882d3b0
+fe5826835e574be058e8f2940ccc6c174e2855ac51e9d2de9b6e4c62f33dc38bf9e36431787ab9
+ed7061f8cc1f65f6575413a2094ec3ea7d31b8be140b04c7a5db1be89132bc7b2ad41c13a734f6
+c6d9eb27aa262d2279febc7d80337fcd92d060f94b55d58468821db1f91eef47b097614398e259
+b6c1fe79c725894ade47903ef28d4c9c678a5a88c3ccaa56a00445c6ffac901d17d2a8f04e9df3
+be1e9508862e1a531de78836431bb7335dda3a6d1f14fdddabfbe6c028423ec9e27d4587104db0
+233411e3b02fb2b3ceed0b3b193689c9e746bd8f8b9be425cf5774267b284c94eea4ffc6119d9c
+24d784adfaf54a8b535f20e5d54655adc0d782d7ca9a4cb6b5101a3f27b3ac6a6922232a39053e
+c96cf414c95ad24caf665b5048c283922b66e99918a2319bb45692035b0bfd778826d89d280e5c
+ff9d2dec5aac0c9eeed4da29384fb259f222d343166d6f90d6e0e399c1db06b6865b7221acab6e
+050e83f5c9ea88fdfd3ad6d3878c84af6688e68fbccd129c9c8fd36ce06a388d98a5ed6e24f665
+33e6aac60d90d9189dee5c5ed395cb8ff23db84316574f774235024413ec8ea89f9a1c6966321a
+0d9c0552b97fef3c0871386c51d2456e4fc824dc555de763b24dafb53a1b7c92ccd1dc0aec8964
+021b6813ecafa73705550c20557ee8ada26ec44842e72e48236e6278255b4e1a6cb7cf4634a40f
+08ebe80ade65856882834022d6bfbfeb6989cbb36b2762b273ee344dc2783739a424f6ce486c16
+18bcb4acd83f6a6e054af81c9ea536283d08743f4e9d540d8a0c5b4a021923431abd5f11a41137
+c22acf01bd38872dddd32624888a5c50f13d058826d803f105c8aa290e5b9228b2958b9153a095
+3837d3d89b7721b8e4d35cc69574afc7c47e8984fc516649696c05ca6806dafa4ee4363586be7b
+86e7ecfaf7eb5227326ef400077f19c9b8c787e9b95ab08da64334c1feb05b1944d02c996122ab
+108e47a512ebe9d84f48d1c6fa6b3d512bb01193ccab679ff09cb3cdcb202c9f8f2b24d68878b8
+09238f1445e3e27bb6fa3d04fbd1b6a7ceed3dad0e5579caad28ba9a62b626e68168823d90f538
+4b9d5bc996c6c528f72fb61fbb8b5c2243e7c9649d558183baf72b37212b5a2a4dadcc1c3a448c
+f64de1a5660392123eca6bb32693192ea19caa0cb1e3262f8c07feaea8dd62f2a8e2c71d85696b
+e3e0ce4d9aa16270ddfb18b1d514be8c4251aead449fe6c6746ab6b46cf0a42b0700bb20d9719f
+2f2f140d1c1606a1b45c43f82abec0105c4654f6e6a86b4548c352edefc07f2dc5efaefecc0109
+6fe2d0a1288e98b58470acea1fd25ccd57d25161707d4f823b1bd473678562e9814a044f133c0c
+fe0931f879905bc27b43c87446f86f858fbeddeb5a1c4fccaee30df7cf01e139f861d0e4826236
+23bf6e6c78a91b3402d1043f8cf00d7850407736cc6609647337209a00fc02d8ffcef81d49ddd9
+d07fa5d1f617379f8e6c0bf12b9e5f40e791d30400802d80a70900005b00d10400802d80680200
+406b92e43f937ca1567798cfbb0000000049454e44ae426082
+}\f4\lang1033\par
+\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw381\pich529\picwgoal216\pichgoal300 
+89504e470d0a1a0a0000000d4948445200000012000000190802000000b36be9c3000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f78000000cc49444154384f63fcffff3f03e980094a9308868ab6ede98c5881f5c43b50
+459800a8cd73e6ff6d6940a6d584dbc0608500b0001e0071a4aa9615988603cfd2096822a80097
+df54f28f1ecd5781723001f941420ea0bab63b13ada1310103e9dba152f8b4010305140d69db20
+51727b82d52c2f785412ed4815ef30a4288168bb7ded1898c603b677171cb30af386c5096a8a80
+39090270cb00b5e10608bf810d40d249a4dfc0896d9617222ca1dab102901df0040e7131d446dc
+da80210e3617ae112a00e60edf2288810100fcabd55f13b5cdd50000000049454e44ae426082
+}\f4\lang1033  is known as the reflection coefficient of the water surface.\par
+\f5\lang1032 K is the spreading factor and \'e8 is t\f4\lang1033 he angle between the reflected ray and the surface.\par
+In DB we write the equation as \par
+\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw4847\pich529\picwgoal2748\pichgoal300 
+89504e470d0a1a0a0000000d49484452000000e500000019080200000041fb7e23000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000058949444154785eed9b3f7adb3a0cc0d57716bb43be9cc03d81dda553d66cf6
+182f6feb98ed2dc9186f593375a97c82fa04f932d4be8b1f00fe1108821425cb6dfc45bfa51149
+1000018294927e3a1e8fd5c8c885f08ffd7764e41218f3f55db15d7d72acb6b6ad88de82ef19c5
+a9315fdf0f109efbab3d5cd08ec77a596dee1f0fb6a38dbc208bfa97e2293b7278fc52b251d014
+cd0612b7b859124e51c3d9d93fccaa6a59db27069842687d0a387cf660bcb87c685508e913f6f4
+f253113cf79aa9b636aec93eead1c39dea621a5cbebabc31381569ad1d60da5448b5b39269e470
+27525e9d8360596227b8b5b145edbd66465022a686be7eebad0916e76b1088421a2f18e4b86da5
+49c5085508203975a5fc68cc573ebd7c52f57520651a435a2935527fe847c1aca713da61ace04a
+a9c536985e6962bad7b6c5b14140b1ded1862e887e142d1639dc4d338a441242a1a61fbd8f6d52
+d704c45913e46b340a463473516f91bb1aaa3f02a93fd688b3081b70506fabca0896c19ac5ec44
+a3583fd958da0bc42d046a895b0b480b0a5306849624522af5d128690036464645f3c54eb9f7ad
+d7dfcd2d78fe74fc7537b10fa77078bcdf54cb6f73fbc8e017ecdb17db98e7fa333769f2f566b6
+7bf979a6d707422cc3fe6d078be99dd9fed80436cdbf4198363fdccb42b617df251630a0da2c70
+019af794ed6afaf6fdf8443ab6abf8fd85bd3a7968549b6048388d7901726d56963d36b112f31e
+7ebeece2f01e7ebfda9f2c93cfd755b57bdbdb474349fc34a7205f51b4daada76d5e7646f78792
+75baaedce6aaaf77900819b62b88edb236767bfe40c23660c816af60b13782a232bb9ada4787dd
+f6f95eda0aacbeba49c95193c200253403336851996283c2aeee80745e5000be2c3656980a9a01
+4c624ffe1166bdad9eedd0cd22c811dcc1b19344505ca657cdbc1ecc6299c401ba53585f2777bf
+7001a86fc82f1e097fb6ffad77b3876757baa8f444c0fe3186da20896c055a1cd64a11a7d05133
+cd749ddf52881a154fbed7003912c07dc6e8c1f9699be64ff572b3f02ee4042378542677cf2c47
+3520b1cd2143552d388613d039e4f30c49af5e6e3add297b1fa04e4c5aca93219336421e957a28
+d9dda6aed079bdfaa71d96ee4a0a6f3c6e1a282fb834839f4185a88bd6ef78c1fa4051265fa056
+15ae041deb1c3a448242da105c3a79dd3e15fefb028a0d4ebe5bdf16642cbf831ac268e6fce902
+1613d8b1e59fcfcf813b83d256505d49ba9bef6d23be5fa897c23230cc439ca764425c30a8fc04
+cde4fb40f07c25cc1191dbba98a7989936846e2b41a2b3230a48f8d3035a828ec119e83ec008ce
+013d5ffc399bed7d079863c31c1a039f195d7cefbe81215f21b271f03233c176d1b49b0b4e3bd1
+fe6bdf7e3442f5386de6c9f701dc96c1ba842592dc68def8c5899defed8c7925e635842aaefae9
+a505576d90c9dd772838bd4b0a3aa954111960f47d76f355f88e0ef4d9c0e66c60f7457a6cee1f
+a2d75c46dc33afaff8331b07d0d0e0264350732016288c349a11e1d4004e13350e486866e837c1
+edecda6bfbe3c549128c0f27740b5493c5521175376d81283d78238449e2517122146f20493b34
+31069ba5a1c9f918f4fb58e3b047d8a8e0347141454f523f935bd64e090dd43526e68e1c1e9870
+5d1423d800c596746fe0bf6d6b879b138a99554325f093b404c59a36b1c0be83b5e3dce291e90e
+a6c766d583160f717a69a755aa4ee7717f3fd08fc65cb22f5695f4e75474873f2ad9d5c0189c6d
+a97ac521255490afd1fb564fe6ff822ef13d19c0e633bcd91f1e6fd755f30977e4af012fddfb9b
+976987b757b8404fd7d775e157b4089bb7fd08b62e9558657b0c5d0a0b76e14723bbc4262ec490
+6108288c49aad493b8253fcb09f9ea95380b6c43d2a00172ecac67dba5e203f10136f1f8ff0d47
+2e89a1eeaf23237f82315f472e89315f472e87aafa1f07e20915622ed9520000000049454e44ae
+426082
+}\f4\lang1033\par
+\fs32 ECKHART MODEL \endash\par
+\fs20 This model is based on the normal distribution of the vertical displacement and slope of the surface.\par
+This is modified for accurate surface loss and uses a zero order Bessel function \par
+\f0\fs22\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw4974\pich529\picwgoal2820\pichgoal300 
+89504e470d0a1a0a0000000d49484452000000eb0000001908020000005f324e90000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000058e49444154785eed9b3b761a4b104087b71650a0c30ac62b104e14912a43a1
+489c3954e60485e2bc44299112c30acc0a380a0c7bc155d5bfaaee9e9e0f2dfb8c3437113dfdab
+5f57d7ccf31b9dcfe76260a0b7fca7ff0e0cf49321827bcdee7e64f8f274d20fbb707afa321add
+ef74ab0b28ca65323481e4d428718708fedb181f64f376b93a422978fef530d60fda8212dd152f
+e7f3f38d7ed2859be7f3f9a5b8bbf01c70d8f12470e1f1c32f54f6b82af5201bc172b4b12e8bf8
+f73f5ebd41d82ab44b982604e883ed4237f252b373149833d9cc8f7efcd7e85801e8765c1d6659
+6265773f5b2fb618ae642e38a71507cc04b43ec97e4b19db353f3bd21c2a12b59d096e3d952878
+af41bb44b72e2058a87acf38b8803fba4ec71a5084a6caa9c57d68332659b822a9a97a2182594b
+0173dd78ea6d2ad0c747d8465b87190fcdcefac941dcb41a6f5877c285aab68c12b89e8025523a
+d68213726847aa28fce598e0a68a38fc76891f2a9aee45d507c7b3cdf86aaa7f11bbd775514caf
+6cffcd2d3861fddae042e705405001f8052190e5a23efddcec8bc5ad7f39a775046ae4197f9d97
+fbcd4f2960eb8214aa88c29e9a443c4204e386c57e39c956817f2228646d0c9c7e1f205d5c4f54
+cbc2b34314ac4597854e339079d63316c4102eb62074e9304b8a39beed23e2fa481d9bc88331bf
+7f3bea16c0153cae8a46b136b92ec10e8eaab8c71c0cf537266c1a9fe56cff4d22f940f09e0a9d
+9e1ed7e0bfc42b3cb841ff4ab0fbb1dc97ab171d0337cfe40c93b8e95498f8193f7c6f9ad473e1
+ebd8581e766e85829430d78f756e8139e64c23db4590d535ba8ac04f215477402eee571893e409
+1a25ab4ec7e0f4748746bee81314e2971e2aec1389bb3e6d368382916f1cd248c73a793c05a92a
+11293a02c9e6c06685a4a60e462818f062d82fef1ac4b0ad6cc495609e2aa7b3eac7c2c241440e
+3eb7e3bde9d110ca47fb6300924d96d36dddf9c07bba264842848ba961535610ed97404b274e4a
+54c7aef2b08a600673ea183fbc60b5a1678cf0835fd531d23e625071635ffe640bc127ba0eda2e
+ca12ba750b5195117f8299dd35a15f2f26178651fab71c8f2db1bb0f0e48919cdc1529a38384e1
+1d15e28bc7c1a4c0e4344223b70dd70f56332e017c49c2d90cec8ce90854cba3917393db748374
+523b400e864418a6b8c4b982bcc2ee8df91cde3c6c2104d5cb74c1f40b809a5b9d6959fc61168c
+263a7c1f4d26ba2c55442b50aa03bb5977f7d67c74ffb3b2b0518a0a8a0699b861bbc76be7feb6
+450bd601537235be42c9bb15778e5fe7091d1bc883773e0b11daa6a28abd1c5545f0b201438bbd
+7a92391954d93bf66f57b710c2fa56d9bd1e56df6ea923069c155371a06fcbf9d7846fc152f89f
+3adb7aecbd5195a13d794a13837eb3d1d6205395ab6f710d6ce8d024e7016f167df1ea0e7a533b
+33fcc8a55eaac2f7b0948e0de4c121dcb79e82140719cb423c47fc56005cfe771790c4dc093011
+06e3287c027ff18fbc42bcc54d47f5cdc2c667be7a7220b5d14839eb1470fdac9bafcb8c07447c
+e006e0b4c8ee6280ebc73eb978ec915ac2c7ae92940731e12010b3fc0ddb43cba9652275700b40
+575c46c9bc5d95b4a66714d6d4c3f5cf504dc28c573ab3853e279e3585f32266a45ef60406b856
+b016a07c1773449cb43cedd7eb06db947f8be80cdd4fcbd9665e71611aa0667d2e5445e5976050
+3378170bfd2b91729de79f89f415f535d6967448f20b822a01bf8bdadf9ad92b4f1568e6f966d2
+d0ca35f280179b7ca1c90b857457e040ead3c7ceba774a65d38dc3e7b6031becb91d4f678daff6
+d9202bf19c26cca65a8a72f5bf33a2c39933991d59524b522d0ffea85c3e1b2a20144adc0b22d8
+2c26c4b63ba8a77c4383b593d789332aa73730ee47854529d23a4adcfc3c46bc549ecc0cff9fdc
+40bfc952070f0cfc3386081ee83743040ff49b218207fa4c51fc0164e7b0f34564a35900000000
+49454e44ae426082
+}\sub\f4\lang1033\par
+\nosupersub\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw2709\pich529\picwgoal1536\pichgoal300 
+89504e470d0a1a0a0000000d49484452000000800000001908020000007635b117000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f7800000357494441546843ed99bd72e2400c80cd3d0ba4c8f004ce13e03457d1a63325
+34d7e50dae714ae8d252a5897982f0044c8a9877e124ad76575aaf3d390f7706c65f8357dad5fe
+6857d20ca3d3e9940cf4c70ffe1de889c1013d3338a0676ec801bbc58858ec5870155807d8d51b
+1e5e8e243dbe3cb0c4892e97d9fa54e6fc7d3da003f098b3435141410454459aecb7ef74dce3e5
+07ed292daa8fe5182597cde43ee5af7f099ed7d9ee2338e0f8bedd27f9b33de0f1f259dea3ffb3
+a7aba2fadcf3d719b021e8f0e53d0a6ff92aeebb4184c9d1d396858e681015d9c2eb83d421cd0a
+1d0ecd3649b25f4db42a3a11120fee1e0e3a405e9a18a4212584206e5e187a752605f87d482d7d
+072ac0684d2b3eb0669504fa441a27920d65d4810e005cf6aa75880fbb10c2a3a06db8a3d25abd
+11754ca1b2dd6c4ddd32514da3c6211c8220ea98def4b42ebfe231ecde20184cef7cb454092bd0
+8eefa6b0bdcf8a9b1a525ae2666590d6b44c34fb999b23a54805354d2db6db1c809017d07ffbd5
+d3375ce0a29e8a9e566a9ca8222923dcabe223ca5dff6078e72bb1c98c01004377375a7dc7344c
+84678a179bd4b15d480710e3e52bba80ebd018782a78e654a3a6699a6cdebc07a8a4c2f76a5ccd
+756cf0d60934e38b5fec05b8fe76385664f06cbb1605b517bf9eb1e66f387e1dc0d4fd849b31da
+26a28b8d3b87b7a02e2b020e806b58778d7c8101508589c5cce7b9f0c0eef76a9a9bb38ce35e21
+f4dca7c5ab3dd868e5053eca92b2b924ab85065520a2b6ed22351237db7c22cd13d9bb8a98cb54
+0f647cf9bc07a9a9338ef4af4c31a8cc4becc102781145856d3f9e0c7093bad31749855581ed1f
+cb5821e63d499b6d6b87a66b90caf754bb0a06063a25808e68a4692235941a7e4a86aa201aef09
+d615c1da34f3632f94c02ffea035318f366e1528b55634a27fbc834674cf4bbb5e37bdda404c4a
+326fc3cf28972d766370caef4f84c4f6c365684760213819ce93166591baed88258b2677e7cf16
+0758a3cad06d524bc25d183fce21c164dbf9aff61407817e9d2c28e150dc14750544cb201141b6
+001f6cb2ce05d075701607980493ce1f9bd294876a6680466c329ba130259b2f095564b1d2e196
+e097d0011be054247151cf485d53e0a24aa0c4118dc36f36140d7fcaf7cc7942d040670607f4cc
+e0805e49923fcf72325f6643a0cf0000000049454e44ae426082
+}\f4\fs20\lang1033 mdodified eckhart  model.\par
+Jo denotes the Bessel function of order zero.\par
+g is given by {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw2731\pich762\picwgoal1548\pichgoal432 
+89504e470d0a1a0a0000000d49484452000000810000002408020000002113ce5a000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f7800000453494441546843ed9b3156e3301086cd9ec5d982c709cc09121a2a5abaa48c
+1bba9474344e1977b45469c027c027c84b417217af663496255932b622c784f5d7600b59913533
+ff8c14b82a8a221819943ff4d3916c7125b85d1fa975c48671bd4eb40132ff60c154149fcb901a
+6c1cd7b7fce31719b5fc6f4c37b854c5c79c1a001f36d0918c2d2f76b698bc3d1c8ae29044d432
+8278b70133c0f3355b696eecf45908d4f16bc72fc2e5e766ca2f4700ef3660d1568ad2e4ba7278
+1604711ee4f1448a0d591c91a1240a26e2399bc190ad5f073dd619d435ca073a4c73a284470400
+1224ddc39374cb2ee58e1cae58f576df48f3f00cbe81656d944fed231f20ccf1f72b6b9a3eae9f
+d32879e5bf9e3e2541fca8f921532c3470afb02261b64b0edf57132eb0373824bbd9f7e1d08b0d
+a0fed9de179d543fdf1ff885289eae66296fe98be3fa31cee7ab5e0cc00997af4924e544333dd8
+0023800c902dcc5e10febd09f2b7773eb7e3fb5b1ecceff1015897800769dff553f612e751f254
+7794ca0b4ecf12e1dd4394c72fcda1808ae40cca85a279ba80d02f4573d559ea29a451491aac43
+17a5aecfa511e86e181e2d4fed386297299830a605e5c3fba88b1448904473255052cf7e04b991
+6ccb94eee6affeb93c38ca44b5616b25c2d511888420dd3644426f39d90dd428ca0cb84a1d409b
+b6cd41b85b89ae27745b029f193ddc09cb40797db211d83b05bb2ffb183fcc06e87ae90cb5781b
+3027acd54b0c755fc125bb6ca3f423dd56ea2ea7a6c33e378481d84796e0fa8972c1113464c318
+3fcd06b26a6de04a97292827539257296bb3a7e41c5ede32733e06afd4359da905423d0c10c532
+f23ef3241a02016ca0fa559d1f75200a0e5c2e1e967e786583198b1b1155b95a889ac373303a28
+0c39b0bbef1bb081941c8d74c8983473dfd0e8c0f41e14aa3cf260fba096b34355698552c3c8c1
+d5179eb58866ee1b1a1d018f81d20eddd535442d1641e551540323a3672e4e8b101eb9cc475944
+a81adf857a9e34a7604bdee846bd0c1678d6a2de812aa75cf570b962f1d054f5d9a97b3ca237eb
+b5aa13720a33e1598bce823880c1cc2a1c4c930ded56cbc296a213cd2a0a6238590ca40325e910
+a314075d430c51a9ced204f9ba23b89b6f7f3e703a5a8e14fb7da91da6a3ddf27922e209e5b840
+a1eaacbc1a8c490fb04bbc829ed4c53a1c4e455f22a5f7a5d9c023d655b34186959e916c205948
+c16882d10625e6e5f90e7c65f11cdd01467b5a4ca3d8e012f3812fda9dee0b98f44312a0da1813
+77b69805c28686d2a5e53714348023171d0788e2918d482e5fbe33a9934019a829cc868f03b9be
+702feffd006ebdda4f5a6c8294121ecf67b397f2fb26e4635e1db1b2a0816fb25a9de39edf06cc
+0093f8c6e8464301abebb009d2ca5db81525280cd9f61cfdec5a6449529789ea441d5e6b782dfa
+3584cb4fbe8c88eb79820f1bd0616fbb6325d8a0565f72dbbef3ffad94db6af54f46c886e7448a
+e08b2ea97c31feffc1f08cf96078461b0ccf6883a109827f74a5622637c0d2fc0000000049454e
+44ae426082
+}\sub\fs22\par
+
+\pard\nowidctlpar\sa240\sl300\slmult0\nosupersub\f6\fs32\lang1032\'f3\f7\fs20\lang1033 r = rms displacement of the surface \par
+
+\pard\widctlpar\sa200\sl276\slmult1\sub\fs22  {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw4953\pich529\picwgoal2808\pichgoal300 
+89504e470d0a1a0a0000000d49484452000000ea000000190802000000b0f025ae000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000047749444154785eed9b3156e3301086cd9e25a1e071827082404345bb5d5292
+663b4a3a1a5242b72d150de404e4043c0a92bb7867462359234b8aecc426dea7af59cb92667e49
+136964de9e9465596432c3e417ff9bc90c901cbe990163c277bbbc38612e965b7e7978b49b2e7d
+b4a11afeb129fb8fd93f1854f8829df1a278dc40225cbecfd68b71c8e06a0edee62b2eb56074fb
+011eb8702ce0f05f6e70f44727ad1d7b2f533fec1f0c14beab87c57af2f8f7768485e913585cbf
+bc1d6a0fc29fd871ef68dbb79775717e8aa39f3e951f6a1a324300c377f5fa5c4c6eaeccaa8dcf
+26a1f885e52dcba7299792d87cadf9e958397e854d69b14cc304c277fbfdc90566747a5e14ebaf
+0d170d7424c95349bf52d43659acbe7c06638bb16a210e34d3d9ed5725a2917ddbe79adfe94eda
+0e7bd53da0a86b2e96cb39292c9e2fb98ab1cc47e401556d926c444a27a083579e32e315236528
+b0d6b28378ccdae344fc7ab852e255725817c9d38894e5e6715214b377cc7b99fa1b8da8b10bf4
+3c51d9b304931b59a1d31dd5954a5603db525048d0b5ab83ac5716b07a329b4db0053d634ba78d
+301e954795fc6cbf17065c6c6fd4302e4fd81262b8013d2b4bb224cd22aa5e954c6d4c8f4018f5
+4e8b79d5c005d6b976b82c1cfa81f025e375bcfd8445e919aa2c19158e3ec01e0d208b35a36e6f
+22ecda71e7f8f2da73da388821bbe60d3541fe66ae39c777a49fc2ee0dcfbaa3dbcf71e22bead6
+4e5d7c2e2c0ee5424e5cf23432fac399504cdd7633bd863b1ea605744ec035b2c1ad677236e627
+4ab50d9887f3350a09e531fbb8b6cc37c691674894edc79a0b24551e8c9ad35b71f5de0da98be0
+e869434b178da711c297c2e7f3dbca3252ef327843c0df0be58dbbf39464541e4a505eeaa12bd7
+0693ac8d17ce6404573741362fc9f33d2b0efd1c1cc26280d51cbccdee5a7e3069a827aa244043
+1749d3c840f8fa633cf52748975cdcaf613394d97a6b6ac745e00edd816b82ee0eafd7e4da7314
+85b68344d9a09a3eadf3fac0b117fd44b0430c07ef7bfbcf0cc97a762909d368c8a9ab4f60f2e0
+6ebff8fbb03fa405c0e1e8a819dddec15628b6f076443eda5974e25aa38ee23fde49ab9f548a34
+d90468bf3fab566847dcc5c400327857f316e750aa9e1d4a62240fb9c1342a307c2900d68bdf6a
+e8dbe57df82c72d30a7324d0d737ef916049829347079db585099b520b007dfc6b12702d668056
+d726252d722c885372747503958b07bdd76b75e9b2e96f2421eaf26262d4f04cf0d2c2291c3b4e
+517c298deab1892ad9cf850986c834c293fb310ee15f0425928cb8c65958e70536718e8ff00dd1
+98c65e951feae0d8248461af98a86b6152171cc1550fdfb8e53b2e79e5d9ea8428bb42229a2954
+63afbc8818abc2801d2d3bd8cc295add9497a09e1a4125ad5db80d11d1b852424dab2263c237d3
+0fb80c621568b96aebd21b3de8e9d085fe7096e90595995ddbc91fdd9c0f98ba37a2073dddbae0
+30cef4039d81b5dce06737df8ef574e922876fefd0ea55d80bfb23f4a0a73317f9ffba65064cce
+7d330326876f66c0e4f0cd0c981cbe99c15214ff00e8ff8ddb058ba8750000000049454e44ae42
+6082
+}\f4\par
+\fs40 SCHULKIN MARSH MODEL-\par
+\fs32 This model was developed so that the surface loss will be independent of the grazing angle.\par
+Assumption made was the limiting ray cycle distance and distance between reflections are equal.\par
+\nosupersub\fs22    {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw7916\pich1545\picwgoal4488\pichgoal876 
+89504e470d0a1a0a0000000d4948445200000176000000490802000000a6679afe000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f7800000e5c49444154785eed9d3d7ae23c10809def2cb0459e9c809c00b64995365d28
+43b35dca74db9032746953a5d97082e504792816eec2373392f5634bb2fc033662de26b1b185d1
+8c4733a3bfabc3e190310cc31c87ffe45f8661982390a88959cfafae6e5ff7f2886198be48cfc4
+ec5f6fafae66d9d7e1efd3489e6218a62f123331605fc68b6cb93bbc4de519e61ca07661be9647
+4c4a246562f6af0f8bcd64f97e76ee0bc6758acb0bf0406e1fd9441e00175e1d8991928959ff3e
+4f03239980f3855c5a80070666fbfc7e2f8f90e91b55c4e1eb519e60ce98844cccfa73954dee7f
+7202e6ac58cfc7db670e6b13261d13c316a61dfbd7dbe3c42410f678b32cebf92cfbd20666ff3a
+e7b028359231316861b29b1f6c619a80d9d687ec3d14a25142967223b7f44f7c6e76fab6bb7e71
+deb07f7d5965ab1916375e6ce0bff1e25b7ec424432a2666ff0f9473723d96874c0d205659dc7c
+05534070c9c7fdee70d82d2737cf7febe648464f7f77cbef59c94982f322e94205678f5f979788
+ba00523131bbed869d984640acb27a3482151764c011300a70e5f8dae8fe8963f4f4becc160f9e
+3088ba02c18be16eeb0449c4c4b013d3108c5526cb5f4103835ece26db2cc676b4a3ba96e30cc3
+e8e9f971b3f8edbc36776738ed9b20899818726298da603fffe3734570327dc33086fad4b50d58
+cd3eefd02a40d0b4fa8c733ea6bf9693d50be7732f8c64d2bd4c7d28ddfa78d7c875c863ab3a41
+d3e8e7fdc4e7c830a9c226e672d9fff9d834b530cd18fdb801ff27d2e961d2804d4c3df2bedb14
+86b5637479e2fcd5f4ee31cbbefff55b77aaffbd2b29ea02099ef260919289d96c77f2bf6a502b
+9caa60aa8b238f8989c9138f6bf73e6a4ba24712a974afa80f71b8a23e68f3ff2830aeda7cfce9
+ef1d84da14fdef5d89d12a7032a9ddd7d61e52d9a004e2267de5aa6fab7d7e96f064f6f11a6fb1
+17e8c5507de39b5106d585266a03bbe564358bec2d39168147f581d28e7ae8f84eb87cca904cf6
+e6873884c5fc3f0a0a95eab4051d43c1a1b0abf0ec1d8cc22914f80c3faf2b40fa11a65b74f8fb
+411d9a7dcbf96f6806555b61407664bc7da66b744e1f4fe398293a8d3797df886a154dc4c488a4
+63b5078e15823d21d84552c69a47899dac7d260ec28fda9e9e461291a4fa0b953aef7a3c465f26
+bdf057572fd7bb4a1b886ee4cd63853f66cc0dc65ebda256ab86b5386600df0795d707a66fd87f
+a8fb04e354f4c2bc186c758b15a928460e943888b231522704c52682ecbc4d4c5c117c54a60920
+89198818023b148294934f76b9d8e0547e49496cce020925f418516bc46dd29da8f6b1d673f44f
+deeee4a19382b3466ea40979418faec1dd0e3fd78e73e354341113232aae9d03ee891c2a5b5cd5
+08085f12f54d2b1b29218e8c0784b11fc830f95e072bf61429c12b410918210f7c3902b2838b51
+6093ecf3f6217b77b7d4e502111ca4a8060d6dbc439a2da44902c7c52c290c1998ba6b97503b6a
+74230a4fc5d9add851509b8a17131b29d542145a81bd4a0df992daf5a117391760dfa1d72028b5
+a27d12949d60f37d4dd34331cf1fdb3280c5114682fce0f04b2a3d245c0916a8d1f63432306224
+94315d445a9cb1e1ca69bf4bb8f13a30aa4afbb849c5c4f4a6b9a57e99aa6443e79e83f2c909d1
+c3230f887aaebabca92364a103254a76f5d3558684ab1a294aa5582e501c60981c0606ce9ac15a
+093411e0b2195f454d20e80bfa6904386b463a98c675d3cc11e221bb079b53b746d2cac574ec80
+37ca885aee251da876a0a4d29d8011b1061d7a199849dc2da3cf0b963775842cd4a0d700ad0a5f
+a51c0d7c87bf4b899c4a28bad1af3ee683f028d8b14331a17342fd64a9d3ca454fdb980c0f9af4
+336b20bc644c4c545013c4ad5fb5df06fb1da2683d5706cacad46bae9853d283fd93eff0574686
+26d2e3b45b15ca07c965597dda25dda508e50b78e1d4415f7bd9b7644c0c198876c918aa5c2314
+8f723a4a12b15d1f683b640a8f18907d696f931bd1535fb9930ad99d1269349eb7d418d57269aa
+1161950e90d6f3dc94399a557f1d88cc70d5a4d91269054aed904ea20c6b2833e65de74089856e
+d2dd0685bbc8ee0f13d2ae5626b931438993c2b2936f5b7d8c57b66e09c2d2d02a81f149349150
+31a0ec9c3253220363e46da8e994d0381963a11e5c3dc8a5f560a51a3be1643c53807a0ff355fc
+bdb8fa1eadd40515237016a63f373e366e2a24421cdf675f40389fbdf2519d9473313ea8fcb84b
+bba3d697c689341e434cfa117cb233aadffb088502f521dd6194d0a89aa1b8881f5ff852752aff
+4ae3193556b9c67302c547959f3a9fc4be5350faa9b989b11f242f2fa69a878255af43011fca7a
+26aad1d253d2b39fbc86f15b4ffca5f4f3a3bfb39f6a61ba0503257282d42c06d4827c00dfe849
+acd30a62aed163df1f43f1c0258ef5587a0c4f4ae0b087134f49c4c081b789b82cc0c488654354
+16476424143d65056b8301e9d09497ec89b5ce1b85baf5336647226c63b0e509251e31e2777eec
+bf11b3006c612e8c3cdd6b36acd34ea6a09e16b493c3535eabcb1a21677138dd4a98ecf3d8987d
+61135813b22162764e99c08d686106635f9913012606973bc4913b81066bf0607fda3095b73084
+6160b6dbb7d425d889adbd09acc54f1c0beacaf5856ec4b0b16a2572263dd08b9119171a765e6f
+b47977d8a3e0cb849e0b1ad5ea7d3a1827a3a7f7f29addeb8a4d6047238f9d0cdd38dc5680392a
+3250a2b616ed0c79f53dd89942635fc2d7faa369a245c7d8c034041b981bd3875d37dd04367023
+b602e6e02fe68290afb042b8bfbaa730dccd48fd4d39d817abbce772572d709c0e482a7d68ddd5
+b5e8bd775657a112a0c6f36078a551eb811bf1e735914fefd5c274409eee5590e71ceccbc4641f
+b579b26912054963434117ae606ace8997635c9debde48da044af49dbc95601ba00a0f87bb7f50
+c9f49f20b721426aa50ea4c2c8d5c08db8780a3b30970a9818d09df20b1c98a801aa25c69fa08e
+a9eb20d2d15a747f6f6ee0055178e5da7f4d032509ed02c646a61dd327b39271dcb9671358dda3
+e4cadf156f9cbeb179b9648417632ecd25263ba9f162c55916349c4c8043669c8bcf6fb63feef4
+229febcfefe5afe0da7f1d40dd6285d5849836e45e496e1fb01190ff1b0e0b5230ffc51b990b07
+95c1caa89861b323be26547cac2e302266280d4ac04ff024fcc53f4dc3f178f01bce356eb70470
+ae3fa23bb83a52a29b69904227a4098103fc4fd898afe5844ee315c7373147fe0a8661ea524af7
+36426cac6e4fbd11a3ba661ff7a71c6c3590d93f0cc3485a9898fdebadcec358a95f014d76e219
+290c73d1b4f362f4f49b7c60157664aff224f0544e761227dda961866152e60a8225f9ef790366
+6c8c5b4e714706c30c896e723103a0d8b9ce30cc1048c6c410035b928a6198544c8c5822b997c5
+e31986f1938a89e138896106495281d230e32431a3a72ef266863973123131a5ad6486c3fecf47
+d6600cbcbc9b61ce9ca4bc9841a66276db8c871f32974b2226e648a998f815dfbcac3f5796e52b
+844d3c18f1f468117454fb2cd31029793155a918d484a0f84b5993f1c28ebfac0ba256a7010b63
+6ca404f7d32aa034691317ee624e8d25822ee859a6a4925546cd5af0cd7b71aeddb662e767098f
+cee335fe67c0b8fffc2175094cfb57ea145c1a8096a6f04dd6a60ff5a75462e5c46eb8c9b8a650
+3e16c14b159c96a0889bd04ea670792b0d104a192c8314555d4047e50a10e5549da69b0b178902
+01ef3324958b7183261c977694e2688858a94baf7e3d7d83ca2d2edd5f0453bd866bc53debbdd3
+b908da15387d3b3c6f699e5f944f5c603d1f57af27094cf4a6f9b44d7e61ed36f4c316d825519c
+7b53a5f3716fd605981863b9b6e65097951d89e1a27fe1fd5ad1c2a8542fc8833637a3b5282d8d
+526e2c07f1c7c529025f20904b054ee59794e4d3854cc592b2bbeb97a8ab0dd6739a7b5cb59e64
+3e1759423b949ad03aa8ce65b52b753eeecd4ac4c4d0b6b89bed4e1e760f49a6ee17589d49200f
+c3d1cc258373d5b121208fd35cdf94e99eb20854032e2500b62237147031b6ce93ecf3f6217b77
+b7d4ddc954ae462a5d9a084b4306463927f1e08e9ce63eeb8575744d1ae97c99444c4cc93637e7
+fb45b56aa6a471ff67d349148b60e7e4ed9cd990953a939c80760ad5a42f38a695644ae0fba5a3
+088a038a0b406fbeafdfb185471be068e99d349729fa0560996ec42229963659343530b4f2f6a3
+b1d995b43863c395d35a1fd6f958520994c88d69bbe61dad319edde36eaa1460427364d437aeec
+a717c879c8eea1fec5509cfdeb6f68e78afa6977267930fc50fa09cc09a1f7cb6c055c5a547fb0
+556b990a43b35b7ebb175882f6cc6160e0acdf2409d04480cba60d8c1cb2ba9aa19f46081dd79e
+9c57e7e349c5c4888db983999108cca6aabca194b5f0fedf9f998a54474f6f701365d2b4cd07e9
+555b18665074141ab4452472c68b1be7c66314dae8f71e93417834ae7030282674963859eed459
+5aaad26829bd3a1f4f32e9de6e6c8c4550e168fb397bd950f1087213fa426712730e38129ca745
+18174ce3e22b6db81b06c2c751a0f32c3b8cddd713d4f914b55e5b201e70e87c04c99818617f5b
+d91890afe59886144e64c90abbc01b4d80d599c40c93d2db443dd0f523a30e90c9bc976bb215b1
+499f484464a503a4f53cd773472beaaf03a7ce57938e8901f30e914aee444442ad8611c21af97f
+91db72d528aac36ca5727a262a588a9d9964889747cd9c1ad12a2991532e74b2d43b663494483d
+99caa868fbdcccb6886c8a8dadd5220363a46e280525110aabb7fc5ccf21f032eb4012d0f94af0
+87a503752d16c719d2c902a29bd1ec7244e850511eaf284bf20e6404d497e9520546d9f8913ea4
+d28c672cdec8744541040253e666d51b12f1cabbb54ce18e90325552f846099dcdbfd278468df5
+a5c67302c547959f3a1fd3be5350faa9c92c0fae00133e5b418574ec6cc6430f8035ddc0e0334c
+6aa4142809301bb6bbff18d71a29d925e47b726712c310e979310cc30c88f4bc18866106049b18
+86618e089b1886618e089b1886618e4696fd0fc27ed4ba727d7da40000000049454e44ae426082
+}\sub\par
+\fs32 Where f is the frequency and h is the average wave height.\par
+\nosupersub BECKMANN SPIZZICHINO MODEL-\par
+\fs20 This model is basically for the EM wave but is applied to the forward scattering losses of the sound wave.\par
+
+\pard\widctlpar\fi720\li720\sa200\sl276\slmult1\f0\fs22\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw3895\pich529\picwgoal2208\pichgoal300 
+89504e470d0a1a0a0000000d49484452000000b80000001908020000000d1173db000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f7800000410494441546843ed9a3d76e23010c79d3d0ba4c8cb09c809609b54dbd24109
+4dba2dd36d0365e86853a5099c209c202f45e02ede99912c8d3e11b671c88b7e4dac0f6b34337f
+7d9897abb22c8b4ce618bfe4df4c264a164a26891f2794c3f2ee0ab95b1e644d2bd0b0d3ad2c7d
+33b6d3e3f1a884827d35d55b5554819603db06c69cddf9b1c9b314f6666fe566220bed8086c6c5
+ba2c9f86b286e0f6818e03788af5e15359ae8b715ce97099dd2f06453158ece1d12989a0eae2a5
+604e4b647eb21125847b41cfbc15bbb7e5120eee8e254caa7a6706e7a5a675bf2b12100a8dc387
+8138eafed41a7cfdcb30e6e8c6c292020929d8da041cca4981273358e5f43b0f0dac63bf40602a
+a104e3166fbd184c2958c2f0359b2e89e04aec90d2cb26f26d7acdc9c0d786ac91757cd9ff2edc
+517abfff0c8addbcff5daf62c8f6650519bb977784c3e73bc4eaa62f4a8af74fff390dc7797f5e
+c8f0802a56237658c34568b4925a1072c2c2dbac074f87d7e79db65a41b5c5ed35f6e89e66d651
+0bbbe7574f9cf0320bf73b5c34109fceaf5ce61dda256d3a87e5e30af267de250dfa376cc7b0d8
+fe9bef068b35a51e2f76148b17a914d25ca585deec2f6f2bf61f3b8f1eb1d653dd110dadf7ae6f
+8bddc75e9618f2ab07efbdb4c5c2ced2a55ac86e04b172e31c9663dc0f223289429b115f8124aa
+d0ee0374a6817656510d7ccef3df51286bb8bdeee6e38439581f60083fbd0c37cf76acd1b171bb
+3926285a6789fb312e2ab5aaa8b07a94e1304545bb8d3b2809cdbb2a59c8649255852f40b55651
+c4baa0665eb85088de6c8d52f19e5302740e0dc8138b5f1157236919fa8cdeab4b11f60ad070d1
+6ca7a812ebf70b2bd58ad49dc0bce140b63613da6701baad286b64c65d7d54eddf9264c8206632
+c922daf163f33422d681d4bcb8805020596e3e22ab0f56a737e6c37b302c67882b580d01b10ec5
+a1c9d1239d56436fa7ca0d5a56fa2ee11e2f0ce7a431771fb0f278a33f0352124a81b0965ab5ba
+8ae103288399c3682e1eda920910b59e96176fa4a4b0f4379194bc2cd9ade6d71736f21d4515c4
+f741dd8fb4149c0f3930cfca7cdac694116a0cb8687576cc70a8af1e47430dac499465d118126c
+fb066844c4ba780c3a644d8e83bfcc8a4869f4cca549876a28f345d363f56e645af5b1a62c302d
+b12ebc4157b35a3e5cc00d8d151fb3bfc29ea1b6c692b19998736e8db875ab4ac3a6664142a90d
+4e47c5c91f3531e340302f1fc343c4f2d2694fa14a07fc3d934e8ee3cd4b58276d0a25a09498f5
+4bc7e711faccdca9e59d7869b3189cacb11671661e75e53c3b0a3c6a8bb516dd8540eb8e078f2a
+2c6fa201f643b1ea3e2c91bcb0ec79692014e92c434dc26c3a3188170649431370e6589c6db07f
+f77109e4055d3c3699fc3fb399249c1fdc32191f59289924b250324964a16412288aff0de46ef2
+6b9926d90000000049454e44ae426082
+}\f4\lang1033\tab\par
+\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw5334\pich1439\picwgoal3024\pichgoal816 
+89504e470d0a1a0a0000000d49484452000000fc0000004408020000002a50cf28000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000087049444154785eed9d3d7ae23c10c7cd7b16d8629f9c803d41d82655da7450
+86265dcaedd29032746953d1049f6039014f8ac05d786746b23e6c8125638cb49e5f132c8c2dc9
+7f8d66a4810c0e8743c6307de23ff997617a038b9ee91d2c7aa67f804f9f18eba9ac3ac33422c1
+40369f0d567787b75b79c83081a4e7deecbfb7e39f2379c030e1b04fcff48ef444bffbdac8570c
+d388242dfdcd8fa17cc5f489fdebaf8183592edff785dd1ba605488e5ee2cb6783c1afd7bd3c0a
+66bcd81d0e87dd629c65d375d3b5bce444cf716c6ca0e01fb2f783df82daeddbe1f09e3d34b0cf
+59367cfcfbf7b134c9c3f58217f2d8d23306688783e4088a1f7ddcef2a5a2c01d735cc3b8877b7
+d84ece30f8e7919ce8398e8d89fc65be993ebb146ffbdf936c6d8f8be1e3fb229b3f5c47f6295a
+7a8e632f063a1ffeeec2fef5cf329bde554e47c18fe637e47303e8762f27e50964f8fb7ebcf9f8
+6c45f5f60803f4bd68ee9214530bbb37fdc4d442a186a24c2ac638d4a23295bbfffcd8b8348fe6
+1f024e397660646c173b10fef28f6dd74fabded071bd1b84f3c65806b934ca961351d17c36819b
+532105bf122a4807a8ba6a1bd31063f143bc565d6abe03144231d64c8c77d1823b1e06165b27d1
+41e9ca847da6815929d707ab655852d4055fcb37f10ed55bb0a5ef211817154b60c2489e023423
+fc7134cd59b6fd3e6d77f7df5b757130b5abede2094dfef0c78df3b3aecb89a9e25d040174576b
+96c867a3390476cb7224bc998f6866c0c85a4e33e0ae61c84cc57a924a4df41cc7b6c0eddd5428
+8474e05a087443c255a0ba1df195f984d0b5b9ff1d1a81e5aba57961baebe66b270f65e08194aa
+ad669de7af919638340fcbcce5a2042d3dc7b16783b2c1991fc2cbe65b45476cf7e8a79a38c062
+df3897763ca0aa092630069a018141d13a73c0b27bd35784bd04ff176cbe199e9e0baa4bd865e5
+da20e4f538acfe11135689154e2e29ed5f1fc0e129dc1b1825d37571be2edc160e536aa2e7fdd8
+16c0859142e6c3c767b0f8757eba1bb4e9a6db21c1e2e52ab75d1b72d34b9ab7bd7f0d5d376831
+53ba301a2979ab5c3b436ce9fb898a0c6dcfbc1432950ee95c8d083157e5598242e3e564a45d1b
+186593a58a4c0b70c5d365fbc540dc183b57f67e6e0bc8619008e0883a16c9982068c14fa33ad4
+28c755bed2a158fe23f42338bae8a84f261ce7e0e58f3f4bab8ece3b9c417aa26fbb073a859ea5
+570b5035098c6fa774b1b0a691a7257f6158f49d11fe9cfd87c83549af5d86e8a92a9a18cd0c54
+f148b5c27bfe2c68f60e796c9ef583ebda6775dcaea69076bcfa2386194c8a9e2aad2b230ee3b3
+3150af6a879100910efb3254f478befb74d1d58aea4978826fcbf0dcf89e5a74d0ea8d58e69cea
+eccffabde9eb50d98fc5a4a8d55d453a1727d16c4446009d4d8ab9f694e305c8e284bdbc4413d4
+3442883b1465b22ac6a11e7b6635a9d4516ffca0ae339c05077699003fefd7363cd3dd418c0158
+7aca10e5cd7d07b4be2c45a4f52cb298d4913a04234ddf9aa3a322b715c1f9c9b109832926fa0b
+1872cbfef609b7485f2c63aff738995600d193cfd0d23ea79da65de5bc3d86aef7634db5c6988d
+c834a3e51d5991d0711ccf74bef669341a23cf4644ec7661caad91a90538da25dfe931207a4a8b
+734f9f18690964e7a982365394bca9c4b1fe341b8df829f4b2e3cd46b4db55f5e91ded92eff418
+10bdb04bcee9138c1b85696a61474ef23a89adc465dd1ba0fbd043c80ae414653622d300746f70
+162fa7b5a149a7478c91953922c0da8ef5232a13ad7bd304d507408cd9884c43c8a727619b864c
+2cdc0bec75e27cb574ffe44307741dc722316723468df68c3b47d6e004d2049757a44b2bc8c5d1
+7aeab7607c11a01e95bb63ddcab4b5525dbab6bab7518eb72a1d1a1da96b8b65ce6a957add710e
+5edeb7d3f1dcb65a7f1e50932b2aa506afb0a6e8f72bb70404126f47d6e094ae87469d9f8b9f2b
+2ba506bf585e74fd7a31beaa1901d1c761c69a11ae5ffc449a4d8efb51f9add3935f3f9fcc6faa
+f9238c2ff8dd35ff9f2ec57530ff9f45ed02a891efe21b467e314b458abf8e08a6d9b8a7cc7f11
+9a6934deb63bf629d9cfd20b3395d47a23731eb8fa529b01eae61aab6c41f88a3e02ced88f6542
+a1fd82fadfa374b1fffcc8f40aeba9a54bd35b726d6b7a0db126c8919c0089c7b14981865d7776
+d1f37e81b5b1ac5d78a4a673ecb808dead28b2ef7c1912b2f44c67d87bc0b519a01610c4aa3d3c
+af1cbd7c863b72fad727f13787cf4e5739493aa28fde53fc87303dc9c00cd0e0851bfc5a819559
+14fe5b4fa1b0a567aa34cf0005d314a6794ad9b0ac19cd273257c91111988ebe1508f84700e988
+9ee3d8ee08cc00d56010dbe6742cd37c95930f07ea3b6998a954fcc7051116f89294a5e7f4daae
+f0cb0045436bd9577be14673c26051369ee5cd90ed3f325d5042b08c2af0a24a11b741ff64500c
+940480b17ce9a89ed1c88d29d5e574ac966584651d8fadb2a3cfc8faac5abd594fe5b974ade273
+a5fb8877d545cd035143f3545f92113d34b149fb98e69018354a7906965ef1c87592384b3d3d21
+56fb7ae6ad4a97b06b61bf595c2a50fa918a1e5b53691f8bbe43aa4fc009c94e3e1878edf18950
+50f4eab274bbca4dc4b8f0bf777c3e3d45e4e21bcea6bfc8716cb760de8987976cb8e46d07b12e
+dcdfc7b97dc3c1e0ffb5b6e844bf1f3de160a4215ddaf4e6383642e48fc9bfe4c782d856819b14
+ffc573afffb54e29a8ad87ec7d8c90ecf59c0553d805e64ea605e84941507b01f75388c0a4121a
+0882ee1d73204bae9af6172fd0a74c3b843ad55726e6757af97d75fb37ee9808a12715f5d7462c
+a2de9c12bfbbe193ceca5c17cfb0371222df9195c6fee1f5f36bc3712cd30e037071e4cb48c967
+f2bfe782cb988e31612226724b0f608235fee5bc62a625e217bdf47118a62d5210bd0c6819a61d
+e2f7e919a66592b0f40cd3262c7aa677b0e8999e9165ff03bc39056bb40acf2a0000000049454e
+44ae426082
+}\sub\f4\lang1033\par
+
+\pard\widctlpar\sa200\sl276\slmult1                               {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw1101\pich529\picwgoal624\pichgoal300 
+89504e470d0a1a0a0000000d4948445200000034000000190802000000f1289a54000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000003a494441545847edcea101002000c3b0c1ff3f0fc30555138da9ed699b55f7
+7792739473947394739473947394739473947394739473d4f05cf2005c6a032fb7092ef3000000
+0049454e44ae426082
+}\par
+\nosupersub\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw7006\pich1207\picwgoal3972\pichgoal684 
+89504e470d0a1a0a0000000d494844520000014b00000039080200000030489eb7000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f78000009ca49444154785eed9d3b72223d1080c7ff5960832d9f803d016ce2c8a93308
+ed6433879b6d8243933975e4c4700273028ac07017feeed663a491e6c5cc8034d35fd5d61abd46
+a3564bad960437a7d3296118a6a7fc27ff6718a68fb0865761b3b849f9f57294c14cb01c5f7e49
+71192c3632b6327631f5f30740a01a4e2d5ba94151f92ea37393e5019634a7d3d7e348863035b9
+9c580ffbed7c0dc23a2c2789fa63f2732c632b337afc2299633191d2ad869f2527ec060fc9dbe9
+f43a9521454c5f4fa7b7e421d201364e22102be4c7e71c3fdfb742b1473f6e6f7f0c7168ee54c3
+8fdfbb24a9d7aed00fc6eff787b27912fa98d1c560a43d2c77b3cb4ce54c3c622505bfff4d0f9d
+be561a5afa071921c1b09e27c2a872c8d8496e224ca00ce9b6c16a7556f800b89658e1b999bc24
+4983f481564db2f51091fe57089ca0d6e1c797bfab647ee70cb568e08d9f6e55fba29456b3acfd
+36fa7d3fd9be7ff2341e1c5713ebe66395b535a6afa6d6afe7abbfc242d82c744d409bcf58b187
+0bbd5443ec8191463a3522a6c39e4c245a57e5b04645cae3192731713a14a30096073b4c80f9b3
+61ed40d5eda6e880514212042b565527c479b0f35c78822e0c9f2613f81e6c209ee17989f069ae
+e166db5043a8763022545b53932ee5074a6cb66a4e2b5326ddb6f0893e588f92d8295b040b2eea
+003dc41446c062c5381999c94a318ed82891c22e5464f0d41410d9f22a11348dad74cbed822695
+b270cc08dc74789d8aa0d57bf2467eced18fdb2a0e1bcc945a4d9b8fddf20fda7b947bf7ed586f
+9e20a63e518815ccfcd90ad4ceeb42436f3c6279f7c8f5267538ebc5a30cebdba771bf76651a6b
+388964f5211b0564ae5af4b0df1a22243028993fcb04b68cedbe63409924b0a2db49d728d32931
+8875f3ef09d4950606b1904e3fe560fad68d1a6c163dde8669ee699bbe8209b39a65774849d0b6
+d82848cb005bdb927ccef03dfea9ed2a10e9adea484cb7842f561a3ab64f6371de6c9680095dbc
+1b777c7978da1a39764bb17db7f95859815e93205adaf0a5a3b106dd015b491b388ea09d201c42
+3d0e5607ec21dbfd01fed2a61ce2e96a843b5b30e711ba58f149c6aab95c2ff1854cd478a0ec79
+a278908890661a0e0b21297c683df44668bb8e9adf35e6d220dcc9c824c0615d08dd0283a15cdb
+94230b2dd313a877d84532e710a7588f2f8bfedadae7d34cc341ba5af896a8c982c27137ed2c3a
+2845265076203a74d2cea4193dbea1bd384e4d39f2b04c966ff6708b93896ff867ea128758ad91
+03f28ef7777d9b7f5b411a27e7a1762404e646038efc56180518db0d4e02227763c47e922f0d16
+6817d61ef4f4ae0a0f8f68c49a66ef5838e2b5bcaf103a819d5af50b14034b5ab7b02334e6721a
+4e5da9524fc23a5da44a6d10a658ab4362610d6f89fa52a5f6efb2f96b6bf859ea17e08bb748d4
+6f47558953c3dbf0a5b70cba3cab5f1cc49b8cd52f255e08cfe2b40c5c48f6fa525d0fc4da1120
+7ab1550714368e99d04d99172b357de0944c30dd5be9f804ff1421a60f8d9ba8fee4c8d4a5c11c
+5e221e2a59c6173d2513473d324d59103b700da7a6004a34a46b0d27017924eb139c9b1053b18a
+774a461055a8d6b53095918232f91ee34698398b6203b4d22f803668fefe144d74e63907b42553
+c8325245a766924c244c6995c3b2b1e8d088e798883896a9ce58e1ce31ddbe52371e154d2e5832
+2d53af6be1f101733937bd03cd747716c5b2cf3e14409b8542ea85b1c3d270a55fb8e22d6ffe12
+a0303ce348e588311e81e5268d9fa2bd51de1f7734a46ef79ff20326b6b4d43e34a241f1ebe3de
+ea6ce7f40f1e33fb67f581f47c18732dceea5a1ed544dc33be74f43757c485b103d27053239b68
+b6c4f2a6f1a5ba41d35ed7c2b9d78798dcd369419cb15714c536d270316a8589aca2c1f495ee06
+526c0bde67d2346d50812a2bd17a66640cbad2a53a35b7e4e1690919c3f87a919796bb960fba09
+a42fc8dc3c24f7a0d4bad714c436d2701ab3024556d146dd3138dcbf3717471c97eaac6b151e3c
+538e8c61727a919796ba160deb7efb0eed41cdd7efc436f0736387e969d3cdf1bc6f220e2c468e
+9dda73e6e8af138442e44b757da556d7a2b1dd5940670c402fd4a7726f6198b1c3d4708d1a79f1
+28461d2d3ff2a53aa6984a5d8bec34c3779ef5ade781bdc0f0c266b0634535984268bfd1dcd8c4
+00bdff48be73d3a98e31f0874ca083042a2b04eb12334934146ec4d067b31e04863a8131205fef
+e2c8c7d740d4d423a1c6985d2b235e8a729f595c172776401a4e0d56408192986220ecb2cc18d5
+6b751805182dee2420b040afd032b5f6a4c1020bea1e2e50f158ea2d8496a7554dba1660e4b612
+52b8f94cd975724acb89e539bc0ad4d6ddf646af9e62606eb71278f34501d43c9a8a0bed291145
+9804b00eb7f673ce7379f5005ccfdfbf8fedf747b74dd1d58be3cb2ffc22ff1676f7afc061bf65
+ef60f75c59c351bbf559019c2ab77dfb32db1aa03ec77ffb0aea556998de7cacaaec28300db9fe
+1c6e7c6d0f9ec8b45c8bc383365b2ae92cfa6ac398bcf5516c629654b22958c12fc495351cbaa9
+d91d687f908908d4eed2df1ef370fcdef1fede45086b3f9cb60379688f07da9d2fbffde670fc7c
+4f8c4d7ddb0ab070060b4fdac1aeebaa10928643075925f37560eb4a261f1c912bdd7ecb72d8a7
+0a0e0b77f227c0c8a07cebc60681d91b48b9e5e52dd313cf3da68070341cefc3247dfbc1897e63
+9fa52bbdfd96022343ea46972b352c4c06e2a14bf74426fd6ed17c2d9775f090b261844102d170
+189de3ddf6192c744d4252e7f69bd7cb0685c9d122738e5fe035f0f8c66c394168b8fc79769ebe
+23e3ccdb6f305bbb0a8e06bfd46acfd17e1168e6c2299fa9c0f5351ca66febe7e07afd4390fda2
+e6ed37097ad91c373ae6910a4cbaeb4ce158a6998bec07339575700ab07a9115392cc7dcb5355c
+acbe8d1fb221773a1307156ebfa16e592a9571a30b68e52d15383b5bfb209bdd4e458729b4f36d
+3d4f57e93887e02f9322e8a07386977e235efc5ad081ef2c5a4cc140d50caf5a01200e6ca727b6
+e9b36c29d16a9334808050e77c37e592a1faeff5dccc86c1eab37868b614c3174f29743cd6c379
+643dfc4f8c02be795205d6f002a871521c35a07853ddb22932ea233ee61524f0c8c2aa861d2f4a
+6c223fd6f09e43bd8735dc0376fdb28e4fea215b0ffeee464fcc8ae0df59695125ce96a1c81da5
+8687b31fcec448d9ed37847e5e587c79b7d7cbd606b890d7cbf2d40398821585c5f9f0be569e35
+bc32eaab2cd9d55f97d1e333de1afcb7f17ad9dac0f4d4259bc56ca51df3faebb6e0ef6f7da6a6
+2a748a0e181b5f5d1c1b722e67982e2133770274b1d41136b4416a4e17acce07c20dfc93efcf30
+1db259dce0d4ca079b2e0c6b387321f064f2fe9915fcc2b086334c9f614f1bc3f419d67086e933
+ace10cd36758c319a6cfb086334c7f4992ff010b26adbb056e7a570000000049454e44ae426082
+}\sub\f4\lang1033\par
+    \nosupersub\fs20 Only if the above condition is satisfied.\par
+\ul\b\fs40 BOTTOM LOSS :-\par
+\ulnone\b0\fs20 This loss is due to the interaction of sound waves with sea floor. There are losses due to both reflection and absorption underwater.\par
+For bottom loss also we have few models\par
+\b\fs36 Rayleigh model for bottom loss \endash\par
+\b0\fs20 There are few assumptions like the ocean floor is smooth and scattering is not much, The Rayleigh model calculates the bottom loss by the reflection losses by the speed of sound and medium density.\par
+\b\fs32 US NAVY MODEL-\par
+\b0\fs20 For frequencies in the range 50Hz to 1Khz- LOW FREQUENCY BOTTOM LOSS\par
+\fs32 BECKMANN SPIZZICHINO MODEL-\par
+\fs20 This model is basically for the EM wave but is applied to the forward scattering losses of the sound wave.\par
+
+\pard\widctlpar\fi720\li720\sa200\sl276\slmult1\f0\fs22\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw3895\pich529\picwgoal2208\pichgoal300 
+89504e470d0a1a0a0000000d49484452000000b80000001908020000000d1173db000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f7800000410494441546843ed9a3d76e23010c79d3d0ba4c8cb09c809609b54dbd24109
+4dba2dd36d0365e86853a5099c209c202f45e02ede99912c8d3e11b671c88b7e4dac0f6b34337f
+7d9897abb22c8b4ce618bfe4df4c264a164a26891f2794c3f2ee0ab95b1e644d2bd0b0d3ad2c7d
+33b6d3e3f1a884827d35d55b5554819603db06c69cddf9b1c9b314f6666fe566220bed8086c6c5
+ba2c9f86b286e0f6818e03788af5e15359ae8b715ce97099dd2f06453158ece1d12989a0eae2a5
+604e4b647eb21125847b41cfbc15bbb7e5120eee8e254caa7a6706e7a5a675bf2b12100a8dc387
+8138eafed41a7cfdcb30e6e8c6c292020929d8da041cca4981273358e5f43b0f0dac63bf40602a
+a104e3166fbd184c2958c2f0359b2e89e04aec90d2cb26f26d7acdc9c0d786ac91757cd9ff2edc
+517abfff0c8addbcff5daf62c8f6650519bb977784c3e73bc4eaa62f4a8af74fff390dc7797f5e
+c8f0802a56237658c34568b4925a1072c2c2dbac074f87d7e79db65a41b5c5ed35f6e89e66d651
+0bbbe7574f9cf0320bf73b5c34109fceaf5ce61dda256d3a87e5e30af267de250dfa376cc7b0d8
+fe9bef068b35a51e2f76148b17a914d25ca585deec2f6f2bf61f3b8f1eb1d653dd110dadf7ae6f
+8bddc75e9618f2ab07efbdb4c5c2ced2a55ac86e04b172e31c9663dc0f223289429b115f8124aa
+d0ee0374a6817656510d7ccef3df51286bb8bdeee6e38439581f60083fbd0c37cf76acd1b171bb
+3926285a6789fb312e2ab5aaa8b07a94e1304545bb8d3b2809cdbb2a59c8649255852f40b55651
+c4baa0665eb85088de6c8d52f19e5302740e0dc8138b5f1157236919fa8cdeab4b11f60ad070d1
+6ca7a812ebf70b2bd58ad49dc0bce140b63613da6701baad286b64c65d7d54eddf9264c8206632
+c922daf163f33422d681d4bcb8805020596e3e22ab0f56a737e6c37b302c67882b580d01b10ec5
+a1c9d1239d56436fa7ca0d5a56fa2ee11e2f0ce7a431771fb0f278a33f0352124a81b0965ab5ba
+8ae103288399c3682e1eda920910b59e96176fa4a4b0f4379194bc2cd9ade6d71736f21d4515c4
+f741dd8fb4149c0f3930cfca7cdac694116a0cb8687576cc70a8af1e47430dac499465d118126c
+fb066844c4ba780c3a644d8e83bfcc8a4869f4cca549876a28f345d363f56e645af5b1a62c302d
+b12ebc4157b35a3e5cc00d8d151fb3bfc29ea1b6c692b19998736e8db875ab4ac3a6664142a90d
+4e47c5c91f3531e340302f1fc343c4f2d2694fa14a07fc3d934e8ee3cd4b58276d0a25a09498f5
+4bc7e711faccdca9e59d7869b3189cacb11671661e75e53c3b0a3c6a8bb516dd8540eb8e078f2a
+2c6fa201f643b1ea3e2c91bcb0ec79692014e92c434dc26c3a3188170649431370e6589c6db07f
+f77109e4055d3c3699fc3fb399249c1fdc32191f59289924b250324964a16412288aff0de46ef2
+6b9926d90000000049454e44ae426082
+}\f4\lang1033\tab\par
+\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw5334\pich1439\picwgoal3024\pichgoal816 
+89504e470d0a1a0a0000000d49484452000000fc0000004408020000002a50cf28000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000087049444154785eed9d3d7ae23c10c7cd7b16d8629f9c803d41d82655da7450
+86265dcaedd29032746953d1049f6039014f8ac05d786746b23e6c8125638cb49e5f132c8c2dc9
+7f8d66a4810c0e8743c6307de23ff997617a038b9ee91d2c7aa67f804f9f18eba9ac3ac33422c1
+40369f0d567787b75b79c83081a4e7deecbfb7e39f2379c030e1b04fcff48ef444bffbdac8570c
+d388242dfdcd8fa17cc5f489fdebaf8183592edff785dd1ba605488e5ee2cb6783c1afd7bd3c0a
+66bcd81d0e87dd629c65d375d3b5bce444cf716c6ca0e01fb2f783df82daeddbe1f09e3d34b0cf
+59367cfcfbf7b134c9c3f58217f2d8d23306688783e4088a1f7ddcef2a5a2c01d735cc3b8877b7
+d84ece30f8e7919ce8398e8d89fc65be993ebb146ffbdf936c6d8f8be1e3fb229b3f5c47f6295a
+7a8e632f063a1ffeeec2fef5cf329bde554e47c18fe637e47303e8762f27e50964f8fb7ebcf9f8
+6c45f5f60803f4bd68ee9214530bbb37fdc4d442a186a24c2ac638d4a23295bbfffcd8b8348fe6
+1f024e397660646c173b10fef28f6dd74fabded071bd1b84f3c65806b934ca961351d17c36819b
+532105bf122a4807a8ba6a1bd31063f143bc565d6abe03144231d64c8c77d1823b1e06165b27d1
+41e9ca847da6815929d707ab655852d4055fcb37f10ed55bb0a5ef211817154b60c2489e023423
+fc7134cd59b6fd3e6d77f7df5b757130b5abede2094dfef0c78df3b3aecb89a9e25d040174576b
+96c867a3390476cb7224bc998f6866c0c85a4e33e0ae61c84cc57a924a4df41cc7b6c0eddd5428
+8474e05a087443c255a0ba1df195f984d0b5b9ff1d1a81e5aba57961baebe66b270f65e08194aa
+ad669de7af919638340fcbcce5a2042d3dc7b16783b2c1991fc2cbe65b45476cf7e8a79a38c062
+df3897763ca0aa092630069a018141d13a73c0b27bd35784bd04ff176cbe199e9e0baa4bd865e5
+da20e4f538acfe11135689154e2e29ed5f1fc0e129dc1b1825d37571be2edc160e536aa2e7fdd8
+16c0859142e6c3c767b0f8757eba1bb4e9a6db21c1e2e52ab75d1b72d34b9ab7bd7f0d5d376831
+53ba301a2979ab5c3b436ce9fb898a0c6dcfbc1432950ee95c8d083157e5598242e3e564a45d1b
+186593a58a4c0b70c5d365fbc540dc183b57f67e6e0bc8619008e0883a16c9982068c14fa33ad4
+28c755bed2a158fe23f42338bae8a84f261ce7e0e58f3f4bab8ece3b9c417aa26fbb073a859ea5
+570b5035098c6fa774b1b0a691a7257f6158f49d11fe9cfd87c83549af5d86e8a92a9a18cd0c54
+f148b5c27bfe2c68f60e796c9ef583ebda6775dcaea69076bcfa2386194c8a9e2aad2b230ee3b3
+3150af6a879100910efb3254f478befb74d1d58aea4978826fcbf0dcf89e5a74d0ea8d58e69cea
+eccffabde9eb50d98fc5a4a8d55d453a1727d16c4446009d4d8ab9f694e305c8e284bdbc4413d4
+3442883b1465b22ac6a11e7b6635a9d4516ffca0ae339c05077699003fefd7363cd3dd418c0158
+7aca10e5cd7d07b4be2c45a4f52cb298d4913a04234ddf9aa3a322b715c1f9c9b109832926fa0b
+1872cbfef609b7485f2c63aff738995600d193cfd0d23ea79da65de5bc3d86aef7634db5c6988d
+c834a3e51d5991d0711ccf74bef669341a23cf4644ec7661caad91a90538da25dfe931207a4a8b
+734f9f18690964e7a982365394bca9c4b1fe341b8df829f4b2e3cd46b4db55f5e91ded92eff418
+10bdb04bcee9138c1b85696a61474ef23a89adc465dd1ba0fbd043c80ae414653622d300746f70
+162fa7b5a149a7478c91953922c0da8ef5232a13ad7bd304d507408cd9884c43c8a727619b864c
+2cdc0bec75e27cb574ffe44307741dc722316723468df68c3b47d6e004d2049757a44b2bc8c5d1
+7aeab7607c11a01e95bb63ddcab4b5525dbab6bab7518eb72a1d1a1da96b8b65ce6a957add710e
+5edeb7d3f1dcb65a7f1e50932b2aa506afb0a6e8f72bb70404126f47d6e094ae87469d9f8b9f2b
+2ba506bf585e74fd7a31beaa1901d1c761c69a11ae5ffc449a4d8efb51f9add3935f3f9fcc6faa
+f9238c2ff8dd35ff9f2ec57530ff9f45ed02a891efe21b467e314b458abf8e08a6d9b8a7cc7f11
+9a6934deb63bf629d9cfd20b3395d47a23731eb8fa529b01eae61aab6c41f88a3e02ced88f6542
+a1fd82fadfa374b1fffcc8f40aeba9a54bd35b726d6b7a0db126c8919c0089c7b14981865d7776
+d1f37e81b5b1ac5d78a4a673ecb808dead28b2ef7c1912b2f44c67d87bc0b519a01610c4aa3d3c
+af1cbd7c863b72fad727f13787cf4e5739493aa28fde53fc87303dc9c00cd0e0851bfc5a819559
+14fe5b4fa1b0a567aa34cf0005d314a6794ad9b0ac19cd273257c91111988ebe1508f84700e988
+9ee3d8ee08cc00d56010dbe6742cd37c95930f07ea3b6998a954fcc7051116f89294a5e7f4daae
+f0cb0045436bd9577be14673c26051369ee5cd90ed3f325d5042b08c2af0a24a11b741ff64500c
+940480b17ce9a89ed1c88d29d5e574ac966584651d8fadb2a3cfc8faac5abd594fe5b974ade273
+a5fb8877d545cd035143f3545f92113d34b149fb98e69018354a7906965ef1c87592384b3d3d21
+56fb7ae6ad4a97b06b61bf595c2a50fa918a1e5b53691f8bbe43aa4fc009c94e3e1878edf18950
+50f4eab274bbca4dc4b8f0bf777c3e3d45e4e21bcea6bfc8716cb760de8987976cb8e46d07b12e
+dcdfc7b97dc3c1e0ffb5b6e844bf1f3de160a4215ddaf4e6383642e48fc9bfe4c782d856819b14
+ffc573afffb54e29a8ad87ec7d8c90ecf59c0553d805e64ea605e84941507b01f75388c0a4121a
+0882ee1d73204bae9af6172fd0a74c3b843ad55726e6757af97d75fb37ee9808a12715f5d7462c
+a2de9c12bfbbe193ceca5c17cfb0371222df9195c6fee1f5f36bc3712cd30e037071e4cb48c967
+f2bfe782cb988e31612226724b0f608235fee5bc62a625e217bdf47118a62d5210bd0c6819a61d
+e2f7e919a66592b0f40cd3262c7aa677b0e8999e9165ff03bc39056bb40acf2a0000000049454e
+44ae426082
+}\sub\f4\lang1033\par
+
+\pard\widctlpar\sa200\sl276\slmult1                               {\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw1101\pich529\picwgoal624\pichgoal300 
+89504e470d0a1a0a0000000d4948445200000034000000190802000000f1289a54000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f780000003a494441545847edcea101002000c3b0c1ff3f0fc30555138da9ed699b55f7
+7792739473947394739473947394739473947394739473d4f05cf2005c6a032fb7092ef3000000
+0049454e44ae426082
+}\par
+\nosupersub\f0\lang9{\pict{\*\picprop{\sp{\sn wzDescription}{\sv Image}}{\sp{\sn posv}{\sv 1}}
+}\pngblip\picw7006\pich1207\picwgoal3972\pichgoal684 
+89504e470d0a1a0a0000000d494844520000014b00000039080200000030489eb7000000017352
+474200aece1ce90000000467414d410000b18f0bfc610500000009704859730000127400001274
+01de661f78000009ca49444154785eed9d3b72223d1080c7ff5960832d9f803d016ce2c8a93308
+ed6433879b6d8243933975e4c4700273028ac07017feeed663a491e6c5cc8034d35fd5d61abd46
+a3564bad960437a7d3296118a6a7fc27ff6718a68fb0865761b3b849f9f57294c14cb01c5f7e49
+71192c3632b6327631f5f30740a01a4e2d5ba94151f92ea37393e5019634a7d3d7e348863035b9
+9c580ffbed7c0dc23a2c2789fa63f2732c632b337afc2299633191d2ad869f2527ec060fc9dbe9
+f43a9521454c5f4fa7b7e421d201364e22102be4c7e71c3fdfb742b1473f6e6f7f0c7168ee54c3
+8fdfbb24a9d7aed00fc6eff787b27912fa98d1c560a43d2c77b3cb4ce54c3c622505bfff4d0f9d
+be561a5afa071921c1b09e27c2a872c8d8496e224ca00ce9b6c16a7556f800b89658e1b999bc24
+4983f481564db2f51091fe57089ca0d6e1c797bfab647ee70cb568e08d9f6e55fba29456b3acfd
+36fa7d3fd9be7ff2341e1c5713ebe66395b535a6afa6d6afe7abbfc242d82c744d409bcf58b187
+0bbd5443ec8191463a3522a6c39e4c245a57e5b04645cae3192731713a14a30096073b4c80f9b3
+61ed40d5eda6e880514212042b565527c479b0f35c78822e0c9f2613f81e6c209ee17989f069ae
+e166db5043a8763022545b53932ee5074a6cb66a4e2b5326ddb6f0893e588f92d8295b040b2eea
+003dc41446c062c5381999c94a318ed82891c22e5464f0d41410d9f22a11348dad74cbed822695
+b270cc08dc74789d8aa0d57bf2467eced18fdb2a0e1bcc945a4d9b8fddf20fda7b947bf7ed586f
+9e20a63e518815ccfcd90ad4ceeb42436f3c6279f7c8f5267538ebc5a30cebdba771bf76651a6b
+388964f5211b0564ae5af4b0df1a22243028993fcb04b68cedbe63409924b0a2db49d728d32931
+8875f3ef09d4950606b1904e3fe560fad68d1a6c163dde8669ee699bbe8209b39a65774849d0b6
+d82848cb005bdb927ccef03dfea9ed2a10e9adea484cb7842f561a3ab64f6371de6c9680095dbc
+1b777c7978da1a39764bb17db7f95859815e93205adaf0a5a3b106dd015b491b388ea09d201c42
+3d0e5607ec21dbfd01fed2a61ce2e96a843b5b30e711ba58f149c6aab95c2ff1854cd478a0ec79
+a278908890661a0e0b21297c683df44668bb8e9adf35e6d220dcc9c824c0615d08dd0283a15cdb
+94230b2dd313a877d84532e710a7588f2f8bfedadae7d34cc341ba5af896a8c982c27137ed2c3a
+2845265076203a74d2cea4193dbea1bd384e4d39f2b04c966ff6708b93896ff867ea128758ad91
+03f28ef7777d9b7f5b411a27e7a1762404e646038efc56180518db0d4e02227763c47e922f0d16
+6817d61ef4f4ae0a0f8f68c49a66ef5838e2b5bcaf103a819d5af50b14034b5ab7b02334e6721a
+4e5da9524fc23a5da44a6d10a658ab4362610d6f89fa52a5f6efb2f96b6bf859ea17e08bb748d4
+6f47558953c3dbf0a5b70cba3cab5f1cc49b8cd52f255e08cfe2b40c5c48f6fa525d0fc4da1120
+7ab1550714368e99d04d99172b357de0944c30dd5be9f804ff1421a60f8d9ba8fee4c8d4a5c11c
+5e221e2a59c6173d2513473d324d59103b700da7a6004a34a46b0d27017924eb139c9b1053b18a
+774a461055a8d6b53095918232f91ee34698398b6203b4d22f803668fefe144d74e63907b42553
+c8325245a766924c244c6995c3b2b1e8d088e798883896a9ce58e1ce31ddbe52371e154d2e5832
+2d53af6be1f101733937bd03cd747716c5b2cf3e14409b8542ea85b1c3d270a55fb8e22d6ffe12
+a0303ce348e588311e81e5268d9fa2bd51de1f7734a46ef79ff20326b6b4d43e34a241f1ebe3de
+ea6ce7f40f1e33fb67f581f47c18732dceea5a1ed544dc33be74f43757c485b103d27053239b68
+b6c4f2a6f1a5ba41d35ed7c2b9d78798dcd369419cb15714c536d270316a8589aca2c1f495ee06
+526c0bde67d2346d50812a2bd17a66640cbad2a53a35b7e4e1690919c3f87a919796bb960fba09
+a42fc8dc3c24f7a0d4bad714c436d2701ab3024556d146dd3138dcbf3717471c97eaac6b151e3c
+538e8c61727a919796ba160deb7efb0eed41cdd7efc436f0736387e969d3cdf1bc6f220e2c468e
+9dda73e6e8af138442e44b757da556d7a2b1dd5940670c402fd4a7726f6198b1c3d4708d1a79f1
+28461d2d3ff2a53aa6984a5d8bec34c3779ef5ade781bdc0f0c266b0634535984268bfd1dcd8c4
+00bdff48be73d3a98e31f0874ca083042a2b04eb12334934146ec4d067b31e04863a8131205fef
+e2c8c7d740d4d423a1c6985d2b235e8a729f595c172776401a4e0d56408192986220ecb2cc18d5
+6b751805182dee2420b040afd032b5f6a4c1020bea1e2e50f158ea2d8496a7554dba1660e4b612
+52b8f94cd975724acb89e539bc0ad4d6ddf646af9e62606eb71278f34501d43c9a8a0bed291145
+9804b00eb7f673ce7379f5005ccfdfbf8fedf747b74dd1d58be3cb2ffc22ff1676f7afc061bf65
+ef60f75c59c351bbf559019c2ab77dfb32db1aa03ec77ffb0aea556998de7cacaaec28300db9fe
+1c6e7c6d0f9ec8b45c8bc383365b2ae92cfa6ac398bcf5516c629654b22958c12fc495351cbaa9
+d91d687f908908d4eed2df1ef370fcdef1fede45086b3f9cb60379688f07da9d2fbffde670fc7c
+4f8c4d7ddb0ab070060b4fdac1aeebaa10928643075925f37560eb4a261f1c912bdd7ecb72d8a7
+0a0e0b77f227c0c8a07cebc60681d91b48b9e5e52dd313cf3da68070341cefc3247dfbc1897e63
+9fa52bbdfd96022343ea46972b352c4c06e2a14bf74426fd6ed17c2d9775f090b261844102d170
+189de3ddf6192c744d4252e7f69bd7cb0685c9d122738e5fe035f0f8c66c394168b8fc79769ebe
+23e3ccdb6f305bbb0a8e06bfd46acfd17e1168e6c2299fa9c0f5351ca66febe7e07afd4390fda2
+e6ed37097ad91c373ae6910a4cbaeb4ce158a6998bec07339575700ab07a9115392cc7dcb5355c
+acbe8d1fb221773a1307156ebfa16e592a9571a30b68e52d15383b5bfb209bdd4e458729b4f36d
+3d4f57e93887e02f9322e8a07386977e235efc5ad081ef2c5a4cc140d50caf5a01200e6ca727b6
+e9b36c29d16a9334808050e77c37e592a1faeff5dccc86c1eab37868b614c3174f29743cd6c379
+643dfc4f8c02be795205d6f002a871521c35a07853ddb22932ea233ee61524f0c8c2aa861d2f4a
+6c223fd6f09e43bd8735dc0376fdb28e4fea215b0ffeee464fcc8ae0df59695125ce96a1c81da5
+8687b31fcec448d9ed37847e5e587c79b7d7cbd606b890d7cbf2d40398821585c5f9f0be569e35
+bc32eaab2cd9d55f97d1e333de1afcb7f17ad9dac0f4d4259bc56ca51df3faebb6e0ef6f7da6a6
+2a748a0e181b5f5d1c1b722e67982e2133770274b1d41136b4416a4e17acce07c20dfc93efcf30
+1db259dce0d4ca079b2e0c6b387321f064f2fe9915fcc2b086334c9f614f1bc3f419d67086e933
+ace10cd36758c319a6cfb086334c7f4992ff010b26adbb056e7a570000000049454e44ae426082
+}\sub\f4\lang1033\par
+    \nosupersub\fs20 Only if the above condition is satisfied.\par
+\ul\b\fs40 BOTTOM LOSS :-\par
+\ulnone\b0\fs20 This loss is due to the interaction of sound waves with sea floor. There are losses due to both reflection and absorption underwater.\par
+For bottom loss also we have few models\par
+\b\fs36 Rayleigh model for bottom loss \endash\par
+\b0\fs20 There are few assumptions like the ocean floor is smooth and scattering is not much, The Rayleigh model calculates the bottom loss by the reflection losses by the speed of sound and medium density.\par
+\b\fs32 US NAVY MODEL-\par
+\b0\fs20 For frequencies in the range 50Hz to 1Khz- LOW FREQUENCY BOTTOM LOSS\par
+For frequencies in the range 1.5Khz to 4Khz- HIGH FREQUENCY BOTTOM LOSS\par
+For frequencies in the range above 10Khz \endash  HIGH FREQUENCY ENVIRONMENTAL ACOUSTIC MODEL\par
+\par
+\ul\b\fs40 THE DOPPLER SHIFT LOSS :-\par
+\ulnone\b0\fs20 When there is a movement of both transmitter and receiver then the frequency shifts and  spreads according to the motion. This creates a loss effect which is known as DOPPLER LOSS EFFECT. \fs22 The magnitude of the Doppler effect is proportional to the ratio a = v/c of the relative transmitter-receiver velocity to the speed of sound. Because the speed of sound is very low compared to the speed of electro-magnetic waves, motion-induced Doppler distortion of an acoustic signal can be extreme. Doppler shift appears equal for all subcarriers, in an acoustic system each subcarrier may experience a different Doppler shift, creating non-uniform Doppler distortion across the signal bandwidth.\par
+
+\pard\sa200\sl276\slmult1\b\i\f0\fs72\lang9\par
+
+\pard\sa200\sl240\slmult1\sub\b0\i0\fs40\par
+\par
+\nosupersub\lang16393\par
+\par
+\b\lang1033\par
+\fs52\lang9\par
+
+\pard\sa200\sl276\slmult1\sub\b0\fs40\par
+\ul\b\fs48\par
+\ulnone\b0\f2\fs40\lang1033\par
+
+\pard\widctlpar\sa200\sl276\slmult1\qc\par
+
+\pard\widctlpar\sa200\sl276\slmult1\qc\tx1136\par
+
+\pard\widctlpar\sa200\sl276\slmult1\qc\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\nosupersub\f0\lang9\par
+\fs22\par
+}
+ 

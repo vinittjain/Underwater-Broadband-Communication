@@ -9,3 +9,11 @@ For our theoretical research, we have focused on
 * Channel estimation algorithms
 * Signal to noise ratio(SNR)
 
+# **Practical Implementation**
+For our implementation of our models, we have focused on
+* Modelling various losses using Simulink
+* Implementing the selected techniques
+* Software Simulation using MATLAB
+  - Debug the program
+  - Tune the chosen parameters
+  - Analyze results
